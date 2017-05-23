@@ -1,0 +1,78 @@
+/* navbar section */
+.navbar-brand>img {
+    width: 70%;
+    margin-top: -12px;  
+}
+.main-menu {
+    background-color: transparent;
+    border-radius: 0;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+
+.main-menu.tiny {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: fixed;
+    top: 0; left: 0; right: 0; z-index: 300;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    background-color: #fff;
+  height:80px;
+}
+
+.main-menu.tiny .navbar-nav > li > a {
+  color:#666;
+}
+
+
+.main-menu .navbar-nav > li > a {
+    padding: 30px 13px 25px 13px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+    border-bottom: 3px solid transparent;
+  text-transform:uppercase;
+} 
+ 
+.main-menu.tiny .navbar-nav > li.active > a {
+    color: #FF3366;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    color: #E03561;
+}
+.main-menu .navbar-nav > li > a:hover {
+    color: #E03561; 
+}
+
+.main-menu .navbar-nav > .active > a, .main-menu .navbar-nav > .active > a:hover, .main-menu .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    color: #E03561;
+    border-bottom: 3px solid #E03561;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border: none;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-top: 20px;
+}
+
+.navbar-brand {
+    max-height: 14px;
+    width: 350px; 
+}
+
+button.donate.btn-primary.btn-lg > a {
+    text-decoration: none;
+    color: white;
+}
+
+.donate {
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: green;
+}
+
