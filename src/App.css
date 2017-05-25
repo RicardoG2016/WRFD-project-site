@@ -37,3 +37,18 @@ video {
   background-size: cover;
   transition: 1s opacity;
 }
+
+.rf {
+  height: 500px;
+  width: 500px;
+  vertical-align: center;
+}
+
+iframe, .twitter {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.twitter {
+  margin-top: 10%;  
+}

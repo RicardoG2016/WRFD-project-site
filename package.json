@@ -6,7 +6,8 @@
     "react": "15.5.4",
     "bootstrap": "4.0.0-alpha.6",
     "react-router": "3.0.2",
-    "react-dom": "15.5.4"
+    "react-dom": "15.5.4",
+    "react-router-dom": "4.1.1"
   },
   "devDependencies": {
     "react-scripts": "1.0.5"

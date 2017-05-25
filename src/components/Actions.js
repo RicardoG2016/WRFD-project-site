@@ -4,13 +4,11 @@ import '../App.css';
 class Actions extends Component {
   render() {
     return (
-        <section>
-
-        </section>
+        <div>
+          "Actions"
+        </div>
     );
   }
 }
 
 export default Actions;
-
-
