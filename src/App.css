@@ -14,6 +14,74 @@
   color: white;
 }
 
+.Homepage {
+  letter-spacing: .5em;
+  text-transform: uppercase;
+  background-image: url(./AmazonRiver.png);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+  text-align: center;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='$url_0', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='$url_0', sizingMethod='scale'); }
+
+.HomeContent {
+  z-index: 1;
+  margin-top: 10%;
+  display: inline-block;
+}
+
+h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  text-shadow: 2px 1px black;
+}
+
+h2 {
+  color: white;
+  font-size: 65px;
+  text-shadow: 2px 1px black;
+}
+
+.HomeButton {
+  background-color: #eeeeee;
+  height: 200px;
+  width: 200px;
+  margin-top: 7%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 15%;
+  border: solid 2px #0f8145;
+  color: #0f8145;
+  font-size: 30px;
+}
+
+.one:hover {
+  color: white;
+  background-color: #34b970;
+  border: solid 4px #0f8145;
+}
+
+.sec:hover {
+  color: white;
+  background-color: #179c91;
+  border: solid 4px #0f8145;
+}
+
+.third:hover {
+  color: white;
+  background-color: #9bc64e;
+  border: solid 4px #0f8145;
+}
+
 .App-intro {
   font-size: large;
 }

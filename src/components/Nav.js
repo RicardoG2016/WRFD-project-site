@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom'
 import '../styles/Nav.css';
 import logo from '../logo.png';
+import wrd from '../wrd.png';
 
 import About from './About';
 import Actions from './Actions';
@@ -24,15 +25,22 @@ class Nav extends Component {
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
                         </button>
-                        <Link to="/home" className="navbar-brand"><img src={logo} alt="logo" /></Link>
-                        <a className="navbar-brand" href="/"></a>
+                        <Link to="/home" className="navbar-brand">
+                            <img src={wrd} alt="logo" />
+                        </Link>
+                    </div>
+                    <div>
+                        <ul className="nav navbar-nav navbar-left">
+                            <li><Link to="/about">World Rainforest Day</Link></li>
+                        </ul>
                     </div>
                     <div className="collapse navbar-collapse">
                         <ul className="nav navbar-nav navbar-right">
-                            <li><Link to="/about"><a className="">About</a></Link></li>
-                            <li><Link to="/actions"><a className="">Get Involved</a></Link></li>
-                            <li><Link to="/blog"><a className="">Blog</a></Link></li>
-                            <li><button className="donate btn-lg btn-primary btn"><a href="https://rainforestpartnership.org/partner-with-us/donation/">Donate</a></button></li>
+                            <li><Link to="/about">About</Link></li>
+                            <li><Link to="/news">News</Link></li>
+                            <li><Link to="/blog">Blog</Link></li>
+                            <li><Link to="/contact">Contact</Link></li>
+                            <li><span><a href="https://rainforestpartnership.org/partner-with-us/donation/"><button className="donate btn-lg btn-secondary btn">Donate</button></a></span></li>
                         </ul>
                     </div>
                 </div>

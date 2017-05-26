@@ -1,61 +1,47 @@
 /* navbar section */
 .navbar-brand>img {
-    width: 80%;
+    height: 80px;
+    width: 86px;
     margin-top: -12px;  
 }
 .main-menu {
-    background-color: transparent;
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
-    height:90px;
-}
-
-.main-menu.tiny {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    height: 90px;
     position: fixed;
-    top: 0; left: 0; right: 0; z-index: 300;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    background-color: #fff;
-    
-}
-
-.main-menu.tiny .navbar-nav > li > a {
-  color:#555555;
+    min-width: 100%;
+    border: 0;
+    z-index: 2;
 }
 
 .main-menu .navbar-nav > li > a {
-    padding: 30px 13px 25px 13px;
-    font-size: 14px;
+    padding: 33px 13px 25px 13px;
+    font-size: 18px;
     line-height: 22px;
-    color: #555555;
+    color: #0f8145;
     border-bottom: 3px solid transparent;
-  text-transform:uppercase;
-} 
- 
-.main-menu.tiny .navbar-nav > li.active > a {
-    color: #FF3366;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    background-color: transparent;
-    color: #E03561;
-}
-.main-menu .navbar-nav > li > a:hover {
-    color: #E03561; 
+    text-transform:uppercase;
 }
 
-.main-menu .navbar-nav > .active > a, .main-menu .navbar-nav > .active > a:hover, .main-menu .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: white;
+    color: #9bc844;
+}
+
+.main-menu .navbar-nav > li > a:hover {
+    color: #9bc844; 
+    font-weight: bold;
+}
+
+.main-menu .navbar-nav > .active > li > a, .main-menu .navbar-nav > .active > a:hover, .main-menu .navbar-nav > .active > a:focus {
     background-color: transparent;
-    color: #E03561;
-    border-bottom: 3px solid #E03561;
+    color: red;
 }
 
 .navbar {
-    position: relative;
     margin-bottom: 0px;
-    background-color: green;
-    bottom-border: solid 1px black;
+    background-color: white;
+    opacity: .8;
 }
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     vertical-align: center;
@@ -68,12 +54,19 @@
 
 button.donate.btn-primary.btn-lg > a {
     text-decoration: none;
-    color: white;
+    color: #0f8145;
 }
 
 .donate {
-    margin-top: 15px;
+    margin-top: 21px;
     margin-left: 13px;
     border-radius: 15px;
+    color: white;
+    background-color: #0f8145;
+}
+
+.donate:hover {
+    color: white;
+    background-color: #9bc64e;
 }
 

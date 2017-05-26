@@ -1,13 +1,27 @@
 import React, { Component } from 'react';
 import '../App.css';
+import Blog from './Blog';
 import forest from '../forest.png';
 
 class Home extends Component {
   render() {
+
     return (
-        <div className="twitter">
-            <h1>#EarthDay Twitter Feed Below</h1>
-            <iframe frameBorder="0" width="550" height="500" src="http://rainforestpartnership.tweetwally.com/embed" target="_blank" scrolling="Auto"></iframe>
+        <div>
+            <div className="Homepage">
+                <div className="HomeContent">
+                    <h1>World Rainforest Day</h1>
+                    <hr />
+                    <h2>June 22 2017</h2>
+                </div>
+                <div>
+                <button className="HomeButton one" >Learn More</button>
+                <button className="HomeButton sec" >Take Action</button>
+                <button className="HomeButton third" >Donate</button>
+                </div>
+            </div>
+
+        <Blog />
         </div>
     );
   }
