@@ -211,7 +211,7 @@ iframe, .twitter {
 
 /*buttons*/
 .vol-btn {
-  border-radius: 5px;
+  border-radius: 1px;
   color: white;
   background-color: #3185a9;
   letter-spacing: .1em;
@@ -225,7 +225,7 @@ iframe, .twitter {
 }
 
 .sa-btn {
-  border-radius: 5px;
+  border-radius: 1px;
   color: white;
   background-color: #9ac947;
   letter-spacing: .1em;
@@ -239,7 +239,7 @@ iframe, .twitter {
 }
 
 .ev-btn {
-  border-radius: 5px;
+  border-radius: 1px;
   color: white;
   background-color: #7bced0;
   letter-spacing: .1em;

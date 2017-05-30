@@ -15,17 +15,20 @@ class Action extends Component {
                   <p>Local Meetup are a great way to meet people in your community who share the same passion to help save our planet and it's Rainforest. </p>
                   <span><a href="https://rainforestpartnership.org/partner-with-us/"><button className="ev-btn btn-lg btn-secondary btn">Events</button></a></span>
                 </div>
+                <hr />
                 <div>
                   <h3 className="action-text">Spread Awareness</h3>
                   <p>Let the world know you care, share on any of our social media below.</p>
                   <p><a href="https://twitter.com/intent/tweet?button_hashtag=WorldRainforestDay">#WorldRainforestDay</a></p>
                   <span><a href="https://rainforestpartnership.org/partner-with-us/"><button className="sa-btn btn-lg btn-secondary btn">Share</button></a></span>
                 </div>
+                <hr />
                 <div>
                   <h3 className="action-text">Volunteer</h3>
                   <p>Further, inspiration and ideas of what you could do on World Rainforest Day can be found on our Featured Projects page. Once you have decided on a project be sure to register your project.</p>
                   <span><a href="https://rainforestpartnership.org/partner-with-us/"><button className="vol-btn btn-lg btn-secondary btn">Volunteer</button></a></span>
                 </div>
+                <hr />
                 <div>
                   <h3 className="action-text">Donate</h3>
                   <p>Donations fund Rainforest Partnership, the NGO who created World Rainforest Day to celebrate the importance of our Rainforest.</p> 
