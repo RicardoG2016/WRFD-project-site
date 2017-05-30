@@ -10,6 +10,8 @@ import Blog from './components/Blog';
 import About from './components/About';
 import Nav from './components/Nav';
 import Home from './components/Home';
+import Contact from './components/Contact';
+import Partners from './components/Partners';
 
 const Routes = () => (
   <Router>
@@ -19,6 +21,7 @@ const Routes = () => (
       <Route path="/actions" component={Actions}/>
       <Route path="/about" component={About}/>
       <Route path="/blog" component={Blog}/>
+      <Route path="/contact" component={Contact}/>
     </div>
   </Router>
 )

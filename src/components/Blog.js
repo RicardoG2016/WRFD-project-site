@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-class Actions extends Component {
+class Blog extends Component {
   render() {
     return (
-        <div>
+        <div className="container">
           <div className="twitter">
             <h1>Celebrate <a href="https://twitter.com/intent/tweet?button_hashtag=WorldRainforestDay">#WorldRainforestDay</a></h1>
             <iframe frameBorder="0" width="550" height="500" src="http://rainforestpartnership.tweetwally.com/embed" target="_blank" scrolling="Auto"></iframe>
@@ -14,4 +14,4 @@ class Actions extends Component {
   }
 }
 
-export default Actions;
+export default Blog;

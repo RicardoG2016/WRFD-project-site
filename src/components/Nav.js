@@ -5,8 +5,8 @@ import {
   Link
 } from 'react-router-dom'
 import '../styles/Nav.css';
-import logo from '../logo.png';
-import wrd from '../wrd.png';
+import logo from '../images/logos/logo.png';
+import wrd from '../images/logos/wrd.png';
 
 import About from './About';
 import Actions from './Actions';
@@ -18,7 +18,7 @@ class Nav extends Component {
     return (
       <div>
             <div className="navbar navbar-default main-menu">
-                <div className="container">
+                <div className="container nav-con">
                     <div className="navbar-header">
                         <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                             <span className="icon-bar"></span>
@@ -31,7 +31,7 @@ class Nav extends Component {
                     </div>
                     <div>
                         <ul className="nav navbar-nav navbar-left">
-                            <li><Link to="/about">World Rainforest Day</Link></li>
+                            <li><Link to="/home">World Rainforest Day</Link></li>
                         </ul>
                     </div>
                     <div className="collapse navbar-collapse">
