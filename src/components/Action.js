@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
 import '../App.css';
+import insta from '../images/logos/instagram.png';
+import fb from '../images/logos/fb.png';
+import tw from '../images/logos/twitter.png';
+import yt from '../images/logos/youtube.png';
+import mu from '../images/logos/meetup.png';
+import rp from '../images/logos/rp.png';
 
 class Action extends Component {
   render() {
@@ -12,20 +18,24 @@ class Action extends Component {
               <div className="col offset-2 offset-sm-6 py-2 text-muted"  id="text">
                 <div>
                   <h3 className="action-text">Events</h3>
-                  <p>Local Meetup are a great way to meet people in your community who share the same passion to help save our planet and it's Rainforest. </p>
-                  <span><a href="https://rainforestpartnership.org/partner-with-us/"><button className="ev-btn btn-lg btn-secondary btn">Events</button></a></span>
+                  <p>Local Meetups and Rainforest Partnership events are a great way to meet people in your community who share the same passion to help save our planet and it's Rainforest.</p>
+                  <a href="https://rainforestpartnership.org/partner-with-us/"><img className="social rp" src={rp} /></a>
+                  <a href="http://www.meetup.com"><img className="social" src={mu} /></a>
                 </div>
                 <hr />
                 <div>
                   <h3 className="action-text">Spread Awareness</h3>
-                  <p>Let the world know you care, share on any of our social media below.</p>
+                  <p>Show the world you care by sharing on our social media links below. Follow us to stay informed.</p>
                   <p><a href="https://twitter.com/intent/tweet?button_hashtag=WorldRainforestDay">#WorldRainforestDay</a></p>
-                  <span><a href="https://rainforestpartnership.org/partner-with-us/"><button className="sa-btn btn-lg btn-secondary btn">Share</button></a></span>
+                  <a href="http://www.instagram.com"><img className="social" src={insta} /></a>
+                  <a href="http://www.facebook.com"><img className="social" src={fb} /></a>
+                  <a href="http://www.twitter.com"><img className="social" src={tw} /></a>
+                  <a href="http://www.youtube.com"><img className="social" src={yt} /></a>
                 </div>
                 <hr />
                 <div>
                   <h3 className="action-text">Volunteer</h3>
-                  <p>Further, inspiration and ideas of what you could do on World Rainforest Day can be found on our Featured Projects page. Once you have decided on a project be sure to register your project.</p>
+                  <p>Do you want to make a difference? If possible volunteer to help save the rainforest. </p>
                   <span><a href="https://rainforestpartnership.org/partner-with-us/"><button className="vol-btn btn-lg btn-secondary btn">Volunteer</button></a></span>
                 </div>
                 <hr />

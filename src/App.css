@@ -162,8 +162,6 @@ iframe, .twitter {
 
 #left {
     position: fixed;
-    background-size: cover;
-    background-position: center center;
     background-attachment: fixed;
     width: 50%;
     padding: 0;
@@ -171,6 +169,12 @@ iframe, .twitter {
     vertical-align: center;
     top: 0;
     bottom: 0;
+    height: 100%;
+}
+
+.l-sec {
+  height: 100%;
+  width: 100%;
 }
 
 #text {
@@ -181,7 +185,7 @@ iframe, .twitter {
 }
 
 .l-content {
-  padding-top: 50%;
+  padding-top: 40%;
   vertical-align: middle;
   text-align: center;
   color: white;
@@ -197,16 +201,32 @@ iframe, .twitter {
   padding-bottom: 20px;
 }
 
+/*sections*/
 .about {
-  background-image: url(./images/scenes/f_1.png);
+  margin-top: 90px; 
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/scenes/waterfall_2.png);
+  background-size: cover;
+  background-position: center center;
 }
 
 .action {
+  margin-top: 90px; 
+  height: 100%;
+  width: 100%;
   background-image: url(./images/animals/jaguar.png);
+  background-size: cover;
+  background-position: center center;
 }
 
 .contact {
-  background-image: url(./images/scenes/waterfall_2.png);
+  margin-top: 90px; 
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/animals/parrot.png);
+  background-size: cover;
+  background-position: center center;
 }
 
 /*buttons*/
@@ -254,4 +274,27 @@ iframe, .twitter {
 
 .do-btn {
   margin: 0 !important;
+}
+
+/*social buttons*/
+.social {
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+.social:hover {
+  width: 65px;
+  height: 65px;
+}
+
+.rp {
+  padding: 10px;
+  width: 79px;
+  height: 60px;
+}
+
+.rp:hover {
+  width: 85px;
+  height: 65px;
 }

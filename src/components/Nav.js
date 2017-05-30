@@ -38,7 +38,6 @@ class Nav extends Component {
                         <ul className="nav navbar-nav navbar-right">
                             <li><Link to="/about">About</Link></li>
                             <li><Link to="/news">News</Link></li>
-                            <li><Link to="/blog">Blog</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
                             <li><span><a href="https://rainforestpartnership.org/partner-with-us/donation/"><button className="donate btn-lg btn-secondary btn">Donate</button></a></span></li>
                         </ul>

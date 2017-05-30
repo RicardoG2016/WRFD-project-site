@@ -6,8 +6,12 @@ class About extends Component {
     return (
       <div>
           <div className="row">
-              <div className="col-sm-6 col-2 bg-inverse text-white py-2 d-flex align-items-center justify-content-center about" id="left">
-                  <h5 className="hidden-xs-down l-content">About</h5>
+              <div className="col-sm-6 col-2 bg-inverse text-white py-2 d-flex align-items-center justify-content-center" id="left">
+                <div className="l-sec">
+                  <div className="about">
+                    <h5 className="hidden-xs-down l-content">About</h5>
+                  </div>
+                </div>
               </div>
               <div className="col offset-2 offset-sm-6 py-2 text-muted"  id="text">
                 <p>There is a day for the endangered species, a day for the trees, and even a day for our Earth, and now there is a day for Rainforests. World Rainforest Day is a collaborative effort to encourage worldwide awareness and action to save one of the earth’s most precious resources, our rainforests.</p>
