@@ -176,7 +176,7 @@ iframe, .twitter {
 #text {
   margin-top: 90px;
   margin-left: 50%;
-  padding: 5%;
+  padding: 4%;
   font-size: 18px;
 }
 
@@ -189,10 +189,69 @@ iframe, .twitter {
   font-weight: bolder;
 }
 
+.action-text {
+  text-align: left;
+  color: #555;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
 .about {
   background-image: url(./images/scenes/f_1.png);
 }
 
+.action {
+  background-image: url(./images/animals/jaguar.png);
+}
+
 .contact {
   background-image: url(./images/scenes/waterfall_2.png);
+}
+
+/*buttons*/
+.vol-btn {
+  border-radius: 5px;
+  color: white;
+  background-color: #3185a9;
+  letter-spacing: .1em;
+}
+
+.vol-btn:hover {
+  background-color: white;
+  color: #3185a9;
+  font-weight: bold;
+  border: 2px solid #3185a9;
+}
+
+.sa-btn {
+  border-radius: 5px;
+  color: white;
+  background-color: #9ac947;
+  letter-spacing: .1em;
+}
+
+.sa-btn:hover {
+  background-color: white;
+  color: #9ac947;
+  font-weight: bold;
+  border: 2px solid #9ac947;
+}
+
+.ev-btn {
+  border-radius: 5px;
+  color: white;
+  background-color: #7bced0;
+  letter-spacing: .1em;
+}
+
+.ev-btn:hover {
+  background-color: white;
+  color: #7bced0;
+  font-weight: bold;
+  border: 2px solid #7bced0;
+}
+
+.do-btn {
+  margin: 0 !important;
 }

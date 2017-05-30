@@ -9,7 +9,7 @@ import logo from '../images/logos/logo.png';
 import wrd from '../images/logos/wrd.png';
 
 import About from './About';
-import Actions from './Actions';
+import Action from './Action';
 import Blog from './Blog';
 import Home from './Home';
 

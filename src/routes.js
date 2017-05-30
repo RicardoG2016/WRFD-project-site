@@ -5,7 +5,7 @@ import {
   Link
 } from 'react-router-dom'
 
-import Actions from './components/Actions';
+import Action from './components/Action';
 import Blog from './components/Blog';
 import About from './components/About';
 import Nav from './components/Nav';
@@ -18,7 +18,7 @@ const Routes = () => (
     <div>
       <Route path="/" component={Nav}/>
       <Route path="/home" component={Home}/>
-      <Route path="/actions" component={Actions}/>
+      <Route path="/action" component={Action}/>
       <Route path="/about" component={About}/>
       <Route path="/blog" component={Blog}/>
       <Route path="/contact" component={Contact}/>
