@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import '../App.css';
 import bean from '../images/products/bean.png';
 import tree_frog from '../images/animals/tree_frog.png';
-import smile from '../images/people/smile.png';
 import f_11 from '../images/scenes/air_river.png';
 import f_10 from '../images/scenes/f_10.png';
 import f_8 from '../images/scenes/f_8.png';
@@ -11,7 +10,6 @@ import f_4 from '../images/scenes/f_4.png';
 import river from '../images/scenes/river.png';
 import jag from '../images/animals/jaguar.png';
 import bf from '../images/animals/butterfly-1.png';
-import group from '../images/people/group.png';
 
 class Purpose extends Component {
   render() {

@@ -2,7 +2,6 @@ import React from 'react'
 import {
   BrowserRouter as Router,
   Route,
-  Link
 } from 'react-router-dom'
 
 import Action from './components/Action';
@@ -11,7 +10,6 @@ import About from './components/About';
 import Nav from './components/Nav';
 import Home from './components/Home';
 import Contact from './components/Contact';
-import Partners from './components/Partners';
 
 const Routes = () => (
   <Router>

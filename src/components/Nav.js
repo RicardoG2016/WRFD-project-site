@@ -1,17 +1,7 @@
 import React, { Component } from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  Link
-} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import '../styles/Nav.css';
-import logo from '../images/logos/logo.png';
 import wrd from '../images/logos/wrd.png';
-
-import About from './About';
-import Action from './Action';
-import Blog from './Blog';
-import Home from './Home';
 
 class Nav extends Component {
   render() {

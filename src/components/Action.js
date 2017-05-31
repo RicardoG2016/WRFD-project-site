@@ -19,18 +19,18 @@ class Action extends Component {
                 <div>
                   <h3 className="action-text">Events</h3>
                   <p>Local Meetups and Rainforest Partnership events are a great way to meet people in your community who share the same passion to help save our planet and it's Rainforest.</p>
-                  <a href="https://rainforestpartnership.org/partner-with-us/"><img className="social rp" src={rp} /></a>
-                  <a href="http://www.meetup.com"><img className="social" src={mu} /></a>
+                  <a href="https://rainforestpartnership.org/partner-with-us/"><img className="social rp" src={rp} alt="rainforest partnership logo" /></a>
+                  <a href="http://www.meetup.com"><img className="social" src={mu} alt="meetup" /></a>
                 </div>
                 <hr />
                 <div>
                   <h3 className="action-text">Spread Awareness</h3>
                   <p>Show the world you care by sharing on our social media links below. Follow us to stay informed.</p>
                   <p><a href="https://twitter.com/intent/tweet?button_hashtag=WorldRainforestDay">#WorldRainforestDay</a></p>
-                  <a href="http://www.instagram.com"><img className="social" src={insta} /></a>
-                  <a href="http://www.facebook.com"><img className="social" src={fb} /></a>
-                  <a href="http://www.twitter.com"><img className="social" src={tw} /></a>
-                  <a href="http://www.youtube.com"><img className="social" src={yt} /></a>
+                  <a href="https://www.instagram.com/worldrainforestday/"><img className="social" src={insta} alt="instagram" /></a>
+                  <a href="http://www.facebook.com"><img className="social" src={fb} alt="facebook" /></a>
+                  <a href="http://www.twitter.com"><img className="social" src={tw} alt="twitter" /></a>
+                  <a href="http://www.youtube.com"><img className="social" src={yt} alt="youtube" /></a>
                 </div>
                 <hr />
                 <div>

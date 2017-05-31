@@ -298,3 +298,34 @@ iframe, .twitter {
   width: 85px;
   height: 65px;
 }
+
+footer {
+  background-color: #eee;
+  padding: 20px;
+}
+
+.footer-header {
+  font-weight: bolder;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.left-footer > h4 {
+  padding-left: 10px;
+}
+
+.left-footer {
+  text-align: left;
+}
+
+.center-footer {
+  float: middle;
+  text-align: left;
+}
+
+.right-footer {
+  float: right;
+  text-align: left;
+}
+
+

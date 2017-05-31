@@ -1,18 +1,9 @@
 import React, { Component } from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  Link
-} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../App.css';
-import Blog from './Blog';
 import Twitter from './Twitter';
-import two from '../images/scenes/b.png';
 import Partners from './Partners';
 import Purpose from './Purpose';
-import Contact from './Contact';
-import Action from './Action';
-import Subscribe from './Subscribe';
 import Footer from './Footer';
 
 class Home extends Component {
