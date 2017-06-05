@@ -1,7 +1,11 @@
-
-body {
-  color: #555;
-  font-family: 'Quicksand' !important;
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-family: 'Quicksand' !important;
 }
 
 .App {
@@ -21,6 +25,7 @@ body {
 }
 
 .Homepage {
+  width: 100%;
   letter-spacing: .5em;
   text-transform: uppercase;
   background-image: url(./images/scenes/b.png);
@@ -34,7 +39,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
   z-index: -1;
-  /*text-align: center;*/
   padding-left: 6%;
   text-align: left;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='$url_0', sizingMethod='scale')";
@@ -43,6 +47,7 @@ body {
   }
 
 .HomeContent {
+  width: 100%;
   margin-top: 13%;
   display: inline-block;
   color: white;
