@@ -1,8 +1,8 @@
 /* navbar section */
 .navbar-brand>img {
-    height: 80px;
-    width: 86px;
-    margin-top: -8px;  
+    height: 70px;
+    width: 80px;
+    margin-top: -3px;  
 }
 
 .main-menu {
@@ -20,7 +20,7 @@
 }
 
 .main-menu .navbar-nav > li > a, .navbar-left {
-    padding: 33px 10px 25px 10px;
+    padding: 35px 10px 25px 10px;
     font-size: 17px;
     line-height: 22px;
     color: #555;
@@ -63,7 +63,7 @@ a.logo-text {
 }
 
 .navbar-left {
-    margin-left: -25px;
+    margin-left: -20px;
 }
 
 .navbar-brand {

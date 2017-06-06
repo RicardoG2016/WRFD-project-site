@@ -13,7 +13,7 @@ class Contact extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col offset-2 offset-sm-6 py-2 text-muted"  id="text">
+              <div className="contact-form col offset-2 offset-sm-6 py-2 text-muted"  id="text">
                  <form>
                   <div className="form-group">
                     <input type="text" className="form-control" id="name" placeholder="Name" />

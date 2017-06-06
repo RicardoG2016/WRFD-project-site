@@ -6,7 +6,7 @@ class About extends Component {
     return (
       <div>
           <div className="row">
-              <div className="col-sm-6 col-2 bg-inverse text-white py-2 d-flex align-items-center justify-content-center" id="left">
+              <div className="col-md-6 col-2 bg-inverse text-white py-2 d-flex align-items-center justify-content-center" id="left">
                 <div className="l-sec">
                   <div className="about">
                     <h5 className="hidden-xs-down l-content">About</h5>

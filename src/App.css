@@ -5,6 +5,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+    overflow-y:auto;
     font-family: 'Quicksand' !important;
 }
 
@@ -14,7 +15,7 @@ html,body
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  /*height: 80px;*/
 }
 
 .App-header {
@@ -48,7 +49,7 @@ html,body
 
 .HomeContent {
   width: 100%;
-  margin-top: 13%;
+  margin-top: 20%;
   display: inline-block;
   color: white;
 }
@@ -190,8 +191,9 @@ iframe, .twitter {
 }
 
 .l-content {
-  padding-top: 40%;
-  vertical-align: middle;
+  padding-top: 280px;
+  height: 100%;
+  vertical-align: center;
   text-align: center;
   color: white;
   font-size: 70px;
@@ -304,6 +306,8 @@ iframe, .twitter {
   height: 65px;
 }
 
+
+/*Footer*/
 footer {
   background-color: #eee;
   padding: 20px;
@@ -333,4 +337,134 @@ footer {
   text-align: left;
 }
 
+
+/*Mobile Responsiveness */
+@media screen and (max-width: 800px) {
+
+  .contact {
+    margin-bottom: 20px;
+  }
+
+  #left {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100%;
+  }
+
+  #text {
+    width: 100%;
+    padding: 40px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .l-content {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+  font-size: 45px;
+  font-weight: bold;
+  }
+
+  h3 {
+    font-size: 35px;
+  }
+
+  h4 {
+    font-size: 14px;
+  }
+
+  .HomeButton {
+    width: 120px;
+    height: 70px;
+    font-size: 18px;
+    border: 2px solid white;
+  }
+
+  .Homepage {
+    padding-left: 3%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+
+  .HomeContent {
+    margin-top: 35%;
+  }
+  hr {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  .Header {
+    padding-bottom: 0px; 
+  }
+
+  h3.Header {
+    margin-bottom: 30px;
+  }
+
+  .HomeButton {
+    width: 100px;
+    height: 60px;
+    font-size: 13px;
+    border: 2px solid white;
+  }
+
+  .divider {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .carousel .item {
+    margin-bottom: 30px;
+    height: 350px;
+  }
+
+  div#myCarousel.carousel.slide {
+    height: 350px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .HomeContent {
+    margin-top: 35%;
+  }
+  hr {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 12px;
+  }
+
+  .HomeButton {
+    width: 82px;
+    border: 2px solid white;
+    height: 60px;
+    font-size: 12px;
+  }
+}
 
