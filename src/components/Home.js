@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css';
+
 import Twitter from './Twitter';
 import Partners from './Partners';
 import Purpose from './Purpose';
@@ -10,7 +11,7 @@ class Home extends Component {
   render() {
 
     return (
-        <div>
+        <div id="home">
             <div className="Homepage">
                 <div className="HomeContent">
                     <h4>Let's Celebrate the Rainforest</h4>
@@ -18,7 +19,7 @@ class Home extends Component {
                     <hr />
                     <h3>June 22 2017</h3>
                 </div>
-                <div>
+                <div className="btn-section">
                     <Link to="/about"><button className="HomeButton one" ><span>Learn More</span></button></Link>
                     <Link to="/action"><button className="HomeButton one" ><span>Take Action</span></button></Link>
                     <a href="https://rainforestpartnership.org/partner-with-us/donation/"><button className="HomeButton third" ><span>Donate</span></button></a>

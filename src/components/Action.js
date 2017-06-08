@@ -10,7 +10,7 @@ import rp from '../images/logos/rp.png';
 class Action extends Component {
   render() {
     return (
-      <div>
+      <div id="action">
           <div className="row">
               <div className="col-md-6 col-2 bg-inverse text-white py-2 d-flex align-items-center justify-content-center" id="left">
                 <div className="l-sec">

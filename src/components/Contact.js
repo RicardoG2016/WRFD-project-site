@@ -4,7 +4,7 @@ import '../App.css';
 class Contact extends Component {
   render() {
     return (
-        <div>
+        <div id="contact">
           <div className="row">
               <div className="col-sm-6 col-2 bg-inverse text-white py-2 d-flex align-items-center justify-content-center" id="left">
                 <div className="l-sec">
@@ -14,6 +14,8 @@ class Contact extends Component {
                 </div>
               </div>
               <div className="contact-form col offset-2 offset-sm-6 py-2 text-muted"  id="text">
+                <p>Contact contact about contacting contact</p>
+                <br/>
                  <form>
                   <div className="form-group">
                     <input type="text" className="form-control" id="name" placeholder="Name" />

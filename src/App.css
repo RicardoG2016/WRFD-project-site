@@ -41,6 +41,7 @@ html,body
   background-size: cover;
   z-index: -1;
   padding-left: 6%;
+  padding-right: 6%;
   text-align: left;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='$url_0', sizingMethod='scale')";
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='$url_0', sizingMethod='scale'); 
@@ -63,11 +64,14 @@ h3 {
   font-size: 65px;
 }
 
+.btn-section {
+  margin-top: 7%;
+}
+
 .HomeButton {
   background-color: transparent;
   height: 90px;
   width: 200px;
-  margin-top: 7%;
   margin-left: 2%;
   margin-right: 2%;
   border: solid 5px white;
@@ -191,13 +195,17 @@ iframe, .twitter {
 }
 
 .l-content {
-  padding-top: 280px;
+  padding-top: 200px;
   height: 100%;
   vertical-align: center;
   text-align: center;
   color: white;
   font-size: 70px;
   font-weight: bolder;
+}
+
+.wrd {
+  font-size: 55px;
 }
 
 .action-text {
@@ -235,6 +243,52 @@ iframe, .twitter {
   background-size: cover;
   background-position: center center;
 }
+
+.facts {
+  margin-top: 90px; 
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/products/bean.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.tips {
+  margin-top: 90px; 
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/products/coffee.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.volunteer {
+  margin-top: 90px; 
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/animals/bf.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.help {
+  margin-top: 90px; 
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/people/smile.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.r-p {
+  margin-top: 90px; 
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/scenes/home.png);
+  background-size: cover;
+  background-position: center center;
+}
+
 
 /*buttons*/
 .vol-btn {
@@ -418,8 +472,8 @@ footer {
   }
 
   .HomeButton {
-    width: 100px;
-    height: 60px;
+    width: 95px;
+    height: 55px;
     font-size: 13px;
     border: 2px solid white;
   }
@@ -461,9 +515,9 @@ footer {
   }
 
   .HomeButton {
-    width: 82px;
+    width: 85px;
     border: 2px solid white;
-    height: 60px;
+    height: 50px;
     font-size: 12px;
   }
 }

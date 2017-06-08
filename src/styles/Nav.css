@@ -20,8 +20,8 @@
 }
 
 .main-menu .navbar-nav > li > a, .navbar-left {
-    padding: 35px 10px 25px 10px;
-    font-size: 17px;
+    padding: 35px 7px 25px 7px;
+    font-size: 16px;
     line-height: 22px;
     color: #555;
     border-bottom: 3px solid transparent;
@@ -67,13 +67,13 @@ a.logo-text {
 }
 
 .navbar-brand {
-    max-width: 300px; 
+    max-width: 290px; 
     margin-top: 0;
 }
 
 .donate {
     margin-top: 21px;
-    margin-left: 13px;
+    margin-left: 7px;
     border-radius: 1px;
     color: white;
     background-color: #0f8145;
@@ -85,6 +85,12 @@ a.logo-text {
     background-color: white;
     font-weight: bold;
     border: 2px solid #0f8145;
+}
+
+@media screen and (max-width: 855px) {
+    .navbar-left {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -100,7 +106,6 @@ a.logo-text {
     .navbar-collapse {
         margin: 0;
         background-color: white;
-        /*width: 100%;*/
         padding: 0px 30px;
     }
 
@@ -113,4 +118,3 @@ a.logo-text {
     }
 
 }
-

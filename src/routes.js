@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
-} from 'react-router-dom'
+} from 'react-router-dom';
 
 import Action from './components/Action';
 import Blog from './components/Blog';
@@ -10,6 +10,14 @@ import About from './components/About';
 import Nav from './components/Nav';
 import Home from './components/Home';
 import Contact from './components/Contact';
+import Twitter from './components/Twitter';
+import Tips from './components/Tips';
+import WRD from './components/WRD';
+import Rp from './components/Rp';
+import Help from './components/Help';
+import Volunteer from './components/Volunteer';
+import Facts from './components/Facts';
+import Partners from './components/Partners';
 
 const Routes = () => (
   <Router>
@@ -21,6 +29,14 @@ const Routes = () => (
       <Route path="/about" component={About}/>
       <Route path="/blog" component={Blog}/>
       <Route path="/contact" component={Contact}/>
+      <Route path="/twitter" component={Twitter}/>
+      <Route path="/tips" component={Tips}/>
+      <Route path="/wrd" component={WRD}/>
+      <Route path="/partners" component={Partners}/>
+      <Route path="/rp" component={Rp}/>
+      <Route path="/help" component={Help}/>
+      <Route path="/volunteer" component={Volunteer}/>
+      <Route path="/facts" component={Facts}/>
     </div>
   </Router>
 )
