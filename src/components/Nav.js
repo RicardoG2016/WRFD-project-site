@@ -28,22 +28,18 @@ class Nav extends Component {
               <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul className="nav navbar-nav navbar-right">
                     <li className="dropdown">
-                      <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Learn More <span className="caret"></span></a>
+                      <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span className="caret"></span></a>
                       <ul className="dropdown-menu">
-                        <li><Link to="/wrd">About World Rainforest Day</Link></li>
-                        <li><Link to="/rp">About Rainforest Partnership</Link></li>
+                        <li><Link to="/wrd">World Rainforest Day</Link></li>
+                        <li><Link to="/rp">Rainforest Partnership</Link></li>
                         <li><Link to="/facts">Rainforest Facts</Link></li>
-                        <li><Link to="/videos">Videos</Link></li>
-                        <li><Link to="/gallery">Gallery</Link></li>
                       </ul>
                     </li>
                     <li className="dropdown">
                       <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Take Action <span className="caret"></span></a>
                       <ul className="dropdown-menu">
-                        <li><Link to="/tips">Tips</Link></li>
-                        <li><Link to="/volunteer">Volunteer</Link></li>
-                        <li><Link to="/help">Become a Partner</Link></li>
-                        <li><Link to="/twitter">Happening Now!</Link></li>
+                        <li><Link to="/action">Act Now</Link></li>
+                        <li><Link to="/twitter">Share</Link></li>
                       </ul>
                     </li>
                     <li><Link to="/contact">Contact</Link></li>

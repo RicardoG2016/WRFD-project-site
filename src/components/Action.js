@@ -19,14 +19,9 @@ class Action extends Component {
                   </div>
                 </div>
               </div>
-
               <div className="col offset-2 offset-sm-6 py-2 text-muted"  id="text">
-                <div>
-                  <h3 className="action-text">Events</h3>
-                  <p>Local Meetups and Rainforest Partnership events are a great way to meet people in your community who share the same passion to help save our planet and it's Rainforest.</p>
-                  <a href="https://rainforestpartnership.org/partner-with-us/"><img className="social rp" src={rp} alt="rainforest partnership logo" /></a>
-                  <a href="http://www.meetup.com"><img className="social" src={mu} alt="meetup" /></a>
-                </div>
+                <p>Your actions will combine with the actions of others to create a collective positive impact on rainforests and the climate worldwide.</p>
+                <p>Do something today to help save the rainforests. Because the world can’t wait.</p>
                 <hr />
                 <div>
                   <h3 className="action-text">Spread Awareness</h3>

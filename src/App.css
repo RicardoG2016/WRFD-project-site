@@ -25,6 +25,10 @@ html,body
   color: white;
 }
 
+.intro {
+  font-size: 10px;
+}
+
 .Homepage {
   width: 100%;
   letter-spacing: .5em;
@@ -109,9 +113,14 @@ iframe, .twitter {
 .Header {
   text-align: center;
   color: #555;
-  font-size: 30px;
+  font-size: 45px;
   font-weight: bold;
   padding-bottom: 40px;
+}
+
+.page-header {
+  text-align: center;
+  color: #555;
 }
 
 /*Content*/
@@ -195,7 +204,7 @@ iframe, .twitter {
 }
 
 .l-content {
-  padding-top: 200px;
+  padding-top: 250px;
   height: 100%;
   vertical-align: center;
   text-align: center;
@@ -217,6 +226,17 @@ iframe, .twitter {
 }
 
 /*sections*/
+
+.space {
+  margin-top: 140px; 
+  height: 100%;
+  width: 100%;
+}
+
+.row {
+  align-content: center;
+}
+
 .about {
   margin-top: 90px; 
   height: 100%;
@@ -230,7 +250,7 @@ iframe, .twitter {
   margin-top: 90px; 
   height: 100%;
   width: 100%;
-  background-image: url(./images/animals/jaguar.png);
+  background-image: url(./images/animals/bird.png);
   background-size: cover;
   background-position: center center;
 }
@@ -337,6 +357,10 @@ iframe, .twitter {
   margin: 0 !important;
 }
 
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
 /*social buttons*/
 .social {
   padding: 10px;
@@ -391,6 +415,18 @@ footer {
   text-align: left;
 }
 
+@media screen and (min-width: 991px) {
+  .portfolio-item {
+    width: 360px;
+    height: 239px;
+    overflow: hidden;
+  }
+
+  .img-responsive {
+    min-height: 239px;
+    width: 100%;
+  }
+}
 
 /*Mobile Responsiveness */
 @media screen and (max-width: 800px) {

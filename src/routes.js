@@ -14,6 +14,7 @@ import Twitter from './components/Twitter';
 import Tips from './components/Tips';
 import WRD from './components/WRD';
 import Rp from './components/Rp';
+import Img from './components/Img';
 import Help from './components/Help';
 import Volunteer from './components/Volunteer';
 import Facts from './components/Facts';
@@ -34,6 +35,7 @@ const Routes = () => (
       <Route path="/wrd" component={WRD}/>
       <Route path="/partners" component={Partners}/>
       <Route path="/rp" component={Rp}/>
+      <Route path="/gallery" component={Img}/>
       <Route path="/help" component={Help}/>
       <Route path="/volunteer" component={Volunteer}/>
       <Route path="/facts" component={Facts}/>

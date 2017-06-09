@@ -27,11 +27,8 @@ class Home extends Component {
             </div>
             <div>
                 <Purpose />
-                <hr className="divider"/>
-                <Partners />
-                <hr className="divider"/>
+                <hr/>
                 <Twitter />
-                <br/>
                 <br/>
                 <br/>
                 <Footer />
