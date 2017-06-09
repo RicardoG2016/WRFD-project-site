@@ -24,17 +24,17 @@ class Images extends Component {
         </div>
 
         <div className="row">
-            <div className="col-md-4 col-sm-12 col-xs-12 portfolio-item">
+            <div className="col-md-4 portfolio-item">
                 <a href="#">
                     <img className="img-responsive" src={f_1} alt="" />
                 </a>
             </div>
-            <div className="col-md-4 col-sm-12 col-xs-12 portfolio-item">
+            <div className="col-md-4 portfolio-item">
                 <a href="#">
                     <img className="img-responsive" src={f_2} alt="" />
                 </a>
             </div>
-            <div className="col-md-4 col-sm-12 col-xs-12 portfolio-item">
+            <div className="col-md-4 portfolio-item">
                 <a href="#">
                     <img className="img-responsive" src={f_3} alt="" />
                 </a>
@@ -42,17 +42,17 @@ class Images extends Component {
         </div>
 
         <div className="row">
-            <div className="col-md-4 col-sm-12 col-xs-12 portfolio-item">
+            <div className="col-md-4 portfolio-item">
                 <a href="#">
                     <img className="img-responsive" src={h_1} alt="" />
                 </a>
             </div>
-            <div className="col-md-4 col-sm-12 col-xs-12 portfolio-item">
+            <div className="col-md-4 portfolio-item">
                 <a href="#">
                     <img className="img-responsive" src={h_2} alt="" />
                 </a>
             </div>
-            <div className="col-md-4 col-sm-12 col-xs-12 portfolio-item">
+            <div className="col-md-4 portfolio-item">
                 <a href="#">
                     <img className="img-responsive" src={h_3} alt="" />
                 </a>
@@ -60,17 +60,17 @@ class Images extends Component {
         </div>
 
         <div className="row">
-            <div className="col-md-4 col-sm-12 col-xs-12 portfolio-item">
+            <div className="col-md-4 portfolio-item">
                 <a href="#">
                     <img className="img-responsive" src="http://placehold.it/750x450" alt="" />
                 </a>
             </div>
-            <div className="col-md-4 col-sm-12 col-xs-12 portfolio-item">
+            <div className="col-md-4 portfolio-item">
                 <a href="#">
                     <img className="img-responsive" src="http://placehold.it/750x450" alt="" />
                 </a>
             </div>
-            <div className="col-md-4 col-sm-12 col-xs-12 portfolio-item">
+            <div className="col-md-4 portfolio-item">
                 <a href="#">
                     <img className="img-responsive" src="http://placehold.it/750x450" alt="" />
                 </a>

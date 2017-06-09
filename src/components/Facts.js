@@ -21,83 +21,83 @@ class Facts extends Component {
   render() {
     return (
         <div className="container">
-        <div className="row space">
-            <div className="col-lg-12">
-                <h3 className="Header">Rainforest Facts</h3>
-            </div>
-        </div>
+          <div className="row space">
+              <div className="col-sm-12">
+                  <h3 className="Header">Rainforest Facts</h3>
+              </div>
+          </div>
 
-        <div className="row">
-            <div className="col-md-4 col-sm-12 col-xs-12 portfolio-item">
-                <a href="#">
-                    <img className="img-responsive" src={f1} alt="" />
-                </a>
-            </div>
-            <div className="col-md-4 col-sm-12 col-xs-12 portfolio-item">
-                <a href="#">
-                    <img className="img-responsive" src={f2} alt="" />
-                </a>
-            </div>
-            <div className="col-md-4 col-sm-12 col-xs-12 portfolio-item">
-                <a href="#">
-                    <img className="img-responsive" src={f3} alt="" />
-                </a>
-            </div>
-        </div>
+          <div className="row">
+              <div className="col-md-4 portfolio-item">
+                  <a href="#">
+                      <img className="img-responsive" src={f1} alt="" />
+                  </a>
+              </div>
+              <div className="col-md-4 portfolio-item">
+                  <a href="#">
+                      <img className="img-responsive" src={f2} alt="" />
+                  </a>
+              </div>
+              <div className="col-md-4 portfolio-item">
+                  <a href="#">
+                      <img className="img-responsive" src={f3} alt="" />
+                  </a>
+              </div>
+          </div>
 
-        <div className="row">
-            <div className="col-md-4 col-sm-12 col-xs-12 portfolio-item">
-                <a href="#">
-                    <img className="img-responsive" src={f4} alt="" />
-                </a>
-            </div>
-            <div className="col-md-4 col-sm-12 col-xs-12 portfolio-item">
-                <a href="#">
-                    <img className="img-responsive" src={f5} alt="" />
-                </a>
-            </div>
-            <div className="col-md-4 col-sm-12 col-xs-12 portfolio-item">
-                <a href="#">
-                    <img className="img-responsive" src={f6} alt="" />
-                </a>
-            </div>
-        </div>
+          <div className="row">
+              <div className="col-md-4 portfolio-item">
+                  <a href="#">
+                      <img className="img-responsive" src={f4} alt="" />
+                  </a>
+              </div>
+              <div className="col-md-4 portfolio-item">
+                  <a href="#">
+                      <img className="img-responsive" src={f5} alt="" />
+                  </a>
+              </div>
+              <div className="col-md-4 portfolio-item">
+                  <a href="#">
+                      <img className="img-responsive" src={f6} alt="" />
+                  </a>
+              </div>
+          </div>
 
-        <div className="row">
-            <div className="col-md-4 col-sm-12 col-xs-12 portfolio-item">
-                <a href="#">
-                    <img className="img-responsive" src={f7} alt="" />
-                </a>
-            </div>
-            <div className="col-md-4 col-sm-12 col-xs-12 portfolio-item">
-                <a href="#">
-                    <img className="img-responsive" src={f8} alt="" />
-                </a>
-            </div>
-            <div className="col-md-4 col-sm-12 col-xs-12 portfolio-item">
-                <a href="#">
-                    <img className="img-responsive" src={f9} alt="" />
-                </a>
-            </div>
-        </div>
+          <div className="row">
+              <div className="col-md-4 portfolio-item">
+                  <a href="#">
+                      <img className="img-responsive" src={f7} alt="" />
+                  </a>
+              </div>
+              <div className="col-md-4 portfolio-item">
+                  <a href="#">
+                      <img className="img-responsive" src={f8} alt="" />
+                  </a>
+              </div>
+              <div className="col-md-4 portfolio-item">
+                  <a href="#">
+                      <img className="img-responsive" src={f9} alt="" />
+                  </a>
+              </div>
+          </div>
 
-        <div className="row">
-            <div className="col-md-4 col-sm-12 col-xs-12 portfolio-item">
-                <a href="#">
-                    <img className="img-responsive" src={f10} alt="" />
-                </a>
-            </div>
-            <div className="col-md-4 col-sm-12 col-xs-12 portfolio-item">
-                <a href="#">
-                    <img className="img-responsive" src={f11} alt="" />
-                </a>
-            </div>
-            <div className="col-md-4 col-sm-12 col-xs-12 portfolio-item">
-                <a href="#">
-                    <img className="img-responsive" src={f12} alt="" />
-                </a>
-            </div>
-        </div>
+          <div className="row">
+              <div className="col-md-4 portfolio-item">
+                  <a href="#">
+                      <img className="img-responsive" src={f10} alt="" />
+                  </a>
+              </div>
+              <div className="col-md-4 portfolio-item">
+                  <a href="#">
+                      <img className="img-responsive" src={f11} alt="" />
+                  </a>
+              </div>
+              <div className="col-md-4 portfolio-item">
+                  <a href="#">
+                      <img className="img-responsive" src={f12} alt="" />
+                  </a>
+              </div>
+          </div>
     </div>
     );
   }

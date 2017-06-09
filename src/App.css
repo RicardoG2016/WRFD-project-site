@@ -228,13 +228,9 @@ iframe, .twitter {
 /*sections*/
 
 .space {
-  margin-top: 140px; 
+  margin: 140px 0 0 0!important;
   height: 100%;
   width: 100%;
-}
-
-.row {
-  align-content: center;
 }
 
 .about {
@@ -309,6 +305,11 @@ iframe, .twitter {
   background-position: center center;
 }
 
+/*images- facts gallery*/
+img.img-responsive {
+  margin-bottom: 30px;
+}
+
 
 /*buttons*/
 .vol-btn {
@@ -355,10 +356,6 @@ iframe, .twitter {
 
 .do-btn {
   margin: 0 !important;
-}
-
-.portfolio-item {
-    margin-bottom: 25px;
 }
 
 /*social buttons*/
@@ -415,16 +412,10 @@ footer {
   text-align: left;
 }
 
-@media screen and (min-width: 991px) {
-  .portfolio-item {
+@media screen and (min-width: 992px) {
+  img.img-responsive {
     width: 360px;
-    height: 239px;
-    overflow: hidden;
-  }
-
-  .img-responsive {
-    min-height: 239px;
-    width: 100%;
+    height: 240px;
   }
 }
 

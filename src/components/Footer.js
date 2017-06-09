@@ -21,7 +21,6 @@ class Footer extends Component {
             <div className="col-md-4 col-sm-4 col-xs-4 center-footer">
                 <h4 className="footer-header">Basics</h4>
                 <h4><Link to="/about">About</Link></h4>
-                <h4><Link to="/news">News</Link></h4>
                 <h4><Link to="/about">Learn More</Link></h4>
                 <h4><Link to="/action">Take Action</Link></h4>
                 <a href="https://rainforestpartnership.org/partner-with-us/donation/"><h4>Donate</h4></a>

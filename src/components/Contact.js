@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
 import '../App.css';
+import insta from '../images/logos/instagram.png';
+import fb from '../images/logos/fb.png';
+import tw from '../images/logos/twitter.png';
+import yt from '../images/logos/youtube.png';
+import mu from '../images/logos/meetup.png';
+import rp from '../images/logos/rp.png';
 
 class Contact extends Component {
   render() {
@@ -14,7 +20,18 @@ class Contact extends Component {
                 </div>
               </div>
               <div className="contact-form col offset-2 offset-sm-6 py-2 text-muted"  id="text">
-                <p>Contact contact about contacting contact</p>
+                <p>Feel free to contact us below. We will try to response as quickly as posible.</p>
+                <br/>
+                <hr/>
+                <h4>Social</h4>
+                <div>
+                  <a href="https://www.instagram.com/worldrainforestday/"><img className="social" src={insta} alt="instagram" /></a>
+                  <a href="http://www.facebook.com"><img className="social" src={fb} alt="facebook" /></a>
+                  <a href="http://www.twitter.com"><img className="social" src={tw} alt="twitter" /></a>
+                  <a href="http://www.youtube.com"><img className="social" src={yt} alt="youtube" /></a>
+                </div>
+                <hr/>
+                <h4>Email</h4>
                 <br/>
                  <form>
                   <div className="form-group">
@@ -32,6 +49,7 @@ class Contact extends Component {
                   <button type="submit" className="donate btn-lg btn-secondary btn">Submit</button>
                 </form>
               </div>
+
           </div>
       </div>
     );
