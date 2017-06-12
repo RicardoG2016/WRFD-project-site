@@ -215,13 +215,15 @@ iframe, .twitter {
 }
 
 .l-content {
-  padding-top: 250px;
+  padding-top: 230px;
   height: 100%;
   vertical-align: center;
   text-align: center;
   color: white;
-  font-size: 80px;
+  font-size: 70px;
   font-weight: bolder;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .wrd {
@@ -476,6 +478,10 @@ footer {
     text-align: center;
   }
 
+  .wrd {
+    font-size: 30px;
+  }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -514,6 +520,10 @@ footer {
     width: 110px;
     height: 60px;
     font-size: 17px;
+  }
+
+  .wrd {
+    font-size: 22px;
   }
 
 }
@@ -573,10 +583,6 @@ footer {
 
   div#myCarousel.carousel.slide {
     height: 350px;
-  }
-
-  .wrd {
-    font-size: 22px;
   }
 
   .social {
