@@ -220,7 +220,7 @@ iframe, .twitter {
   vertical-align: center;
   text-align: center;
   color: white;
-  font-size: 70px;
+  font-size: 80px;
   font-weight: bolder;
 }
 
@@ -264,7 +264,7 @@ iframe, .twitter {
   margin-top: 90px; 
   height: 100%;
   width: 100%;
-  background-image: url(./images/animals/bird.png);
+  background-image: url(./images/people/group.png);
   background-size: cover;
   background-position: center center;
 }
@@ -504,16 +504,25 @@ footer {
   }
 }
 
+@media screen and (max-width: 430px) {
+  .HomeContent {
+    margin-top: 35%;
+    text-align: center;
+  }
+
+  .HomeButton {
+    width: 110px;
+    height: 60px;
+    font-size: 17px;
+  }
+
+}
+
 @media screen and (max-width: 414px) {
 
   #text {
     padding: 30px;
     font-size: 16px;
-  }
-
-  .HomeContent {
-    margin-top: 35%;
-    text-align: center;
   }
 
   .Homepage {
