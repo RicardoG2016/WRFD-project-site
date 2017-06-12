@@ -14,11 +14,13 @@ class Rp extends Component {
                 </div>
               </div>
               <div className="col offset-2 offset-sm-6 py-2 text-muted"  id="text">
-                <p>Rainforest Partnership is an impact and data driven international nonprofit dedicated to protecting tropical rainforests, the lungs of our planet and a critical factor in its health.</p>
-                <p>The Amazon Basin alone stores 400 million metric tons of CO2 per year – about 25% of all carbon stored on land, and it produces 20% of the world’s oxygen. </p>
-                <p>Nearly 4,500 acres of rainforests are lost every hour from illegal logging, mining, agriculture, forest fires, and oil drilling, resulting in a lot more carbon in the atmosphere – and a lot less oxygen.</p>
-                <p>Rainforest Partnership works directly with rainforest communities to sustainably develop products found in the forest, giving the community a stake in keeping their trees intact.</p>
-                <p>When the trees are more valuable standing than cut, we can all breathe easier.</p>
+                <p>World Rainforest Day is a collaborative global effort envisioned and organized by the Rainforest Partnership. </p>
+                <p>Rainforest Partnership is an international nonprofit dedicated to protecting tropical rainforests, by working directly with rainforest communities to sustainably develop products found in the forest, giving the community a stake in keeping their trees intact.</p>
+                <p>Learn more about Rainforest Partnership and how you can support our work engaging rainforest communities to preserve the rainforest.</p>
+                <p><a href="www.worldrainforestpartnership.com">World Rainforest Partnership</a></p>
+                <br/>
+                <br/>
+                <br/>
               </div>
           </div>
       </div>

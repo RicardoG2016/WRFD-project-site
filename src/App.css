@@ -1,12 +1,22 @@
 html,body
 {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-    overflow-y:auto;
-    font-family: 'Quicksand' !important;
+  width: 100%;
+  /*height: 100vh;*/
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+  overflow-y:auto;
+}
+
+body
+{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+  overflow-y:auto;
+  font-family: 'Quicksand' !important;
 }
 
 .App {
@@ -197,9 +207,10 @@ iframe, .twitter {
 }
 
 #text {
+  height: 100vh;
   margin-top: 90px;
   margin-left: 50%;
-  padding: 4%;
+  padding: 3%;
   font-size: 18px;
 }
 
@@ -214,7 +225,7 @@ iframe, .twitter {
 }
 
 .wrd {
-  font-size: 55px;
+  font-size: 45px;
 }
 
 .action-text {
@@ -225,8 +236,15 @@ iframe, .twitter {
   padding-bottom: 20px;
 }
 
-/*sections*/
+.lead {
+  font-size: 17px;
+}
 
+.featurette-heading {
+  margin: 0;
+}
+
+/*sections*/
 .space {
   margin: 140px 0 0 0!important;
   height: 100%;
@@ -361,8 +379,8 @@ img.img-responsive {
 /*social buttons*/
 .social {
   padding: 10px;
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
 }
 
 .social:hover {
@@ -381,11 +399,18 @@ img.img-responsive {
   height: 65px;
 }
 
-
 /*Footer*/
 footer {
-  background-color: #eee;
-  padding: 20px;
+  align-content: center;
+  border-top: 1px solid #eee !important;
+  border-color: black;
+  width: 100%;
+  position: absolute;
+  padding: 40px 10px;
+  border: none;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 0;
 }
 
 .footer-header {
@@ -394,23 +419,16 @@ footer {
   font-size: 20px;
 }
 
-.left-footer > h4 {
-  padding-left: 10px;
-}
-
 .left-footer {
-  text-align: left;
+  text-align: center;
 }
 
+/*
 .center-footer {
   float: middle;
   text-align: left;
 }
-
-.right-footer {
-  float: right;
-  text-align: left;
-}
+*/
 
 @media screen and (min-width: 992px) {
   img.img-responsive {
@@ -434,6 +452,7 @@ footer {
   }
 
   #text {
+    height: 100%;
     width: 100%;
     padding: 40px;
     margin-top: 0;
@@ -445,6 +464,18 @@ footer {
     padding-bottom: 20%;
     font-size: 45px;
   }
+
+  .HomeButton {
+    width: 180px;
+    height: 90px;
+    font-size: 18px;
+    border: 2px solid white;
+  }
+
+  .Homepage {
+    text-align: center;
+  }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -475,9 +506,24 @@ footer {
 
 @media screen and (max-width: 414px) {
 
+  #text {
+    padding: 30px;
+    font-size: 16px;
+  }
+
   .HomeContent {
     margin-top: 35%;
+    text-align: center;
   }
+
+  .Homepage {
+    line-height: 110%;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 10px;
+  }
+
   hr {
     width: 90%;
   }
@@ -496,6 +542,7 @@ footer {
 
   h3.Header {
     margin-bottom: 30px;
+    font-size: 25px;
   }
 
   .HomeButton {
@@ -519,18 +566,40 @@ footer {
     height: 350px;
   }
 
+  .wrd {
+    font-size: 22px;
+  }
+
+  .social {
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+  }
+
+  .left-footer > span {
+    padding-right: 5px;
+  }
+
 }
 
 @media screen and (max-width: 320px) {
+
+
+  .left-footer > span {
+    font-size: 10px;
+    padding-right: 4px;
+    margin-left: -5px;
+  }
+
   .HomeContent {
-    margin-top: 35%;
+    margin-top: 40%;
   }
   hr {
     width: 90%;
   }
 
   h1 {
-    font-size: 25px;
+    font-size: 28px;
   }
 
   h3 {
@@ -539,6 +608,10 @@ footer {
 
   h4 {
     font-size: 12px;
+  }
+
+  .Header {
+    font-size: 20px;
   }
 
   .HomeButton {

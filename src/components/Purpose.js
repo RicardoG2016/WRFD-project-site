@@ -8,6 +8,7 @@ import f_7 from '../images/scenes/f_7.png';
 import f_4 from '../images/scenes/f_4.png';
 import bf from '../images/animals/butterfly-1.png';
 
+
 class Purpose extends Component {
   render() {
     return (
@@ -15,13 +16,12 @@ class Purpose extends Component {
         <h3 className="Header">Together We Can Save the Rainforest</h3>
         <div className="row featurette">
           <div className="col-md-5 intro">
-            <h2 className="featurette-heading text-muted"></h2>
             <p className="lead text-muted">World Rainforest Day is a collaborative effort to raise awareness and encourage action to save one of the earth’s most precious resources, our rainforest.</p>
             <p className="lead text-muted">Rainforests are home to most of Earth’s plant and animal life. By absorbing carbon dioxide, they play a critical role in addressing climate change. Yet every hour nearly 4,500 acres of rainforests are lost forever due to illegal logging, mining, agriculture, fires, and oil drilling.</p>
             <p className="lead text-muted">Learn how you can help protect this precious resource. Take action on World Rainforest Day, share your commitment online, and encourage others to join in this important effort.</p>
             <p className="lead text-muted">Because the World Can’t Wait</p>
             <p className="lead text-muted">Share how you’re helping to save the world’s rainforests</p>
-            <p className="lead text-muted">#WorldRainforestDay</p>
+            <p className="lead text-muted"><a href="https://twitter.com/intent/tweet?button_hashtag=WorldRainforestDay">#WorldRainforestDay</a></p>
           </div>
           <div className="col-md-7">
                 <div id="myCarousel" className="carousel slide" data-ride="carousel">

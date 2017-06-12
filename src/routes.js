@@ -19,6 +19,7 @@ import Help from './components/Help';
 import Volunteer from './components/Volunteer';
 import Facts from './components/Facts';
 import Partners from './components/Partners';
+import Footer from './components/Footer';
 
 const Routes = () => (
   <Router>
@@ -39,6 +40,7 @@ const Routes = () => (
       <Route path="/help" component={Help}/>
       <Route path="/volunteer" component={Volunteer}/>
       <Route path="/facts" component={Facts}/>
+      <Route path="/" component={Footer}/>
     </div>
   </Router>
 )

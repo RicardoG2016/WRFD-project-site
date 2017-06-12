@@ -10,10 +10,6 @@ class Twitter extends Component {
             <h4>Share how you’re helping to save the world’s rainforests.</h4>
             <hr />
             <iframe frameBorder="1" width="100%" height="700px" src="http://rainforestpartnership.tweetwally.com/embed" target="_blank" scrolling="Auto"></iframe>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
           </div>
         </section>
     );

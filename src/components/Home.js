@@ -5,7 +5,6 @@ import '../App.css';
 import Twitter from './Twitter';
 import Partners from './Partners';
 import Purpose from './Purpose';
-import Footer from './Footer';
 
 class Home extends Component {
   render() {
@@ -19,6 +18,9 @@ class Home extends Component {
                     <hr />
                     <h3>June 22 2017</h3>
                 </div>
+                <br/>
+                <br/>
+                <br/>
                 <div className="btn-section">
                     <Link to="/about"><button className="HomeButton one" ><span>Learn More</span></button></Link>
                     <Link to="/action"><button className="HomeButton one" ><span>Take Action</span></button></Link>
@@ -31,7 +33,6 @@ class Home extends Component {
                 <Twitter />
                 <br/>
                 <br/>
-                <Footer />
             </div>
         </div>
     );
