@@ -17,7 +17,7 @@ class Rp extends Component {
                 <p>World Rainforest Day is a collaborative global effort envisioned and organized by the Rainforest Partnership. </p>
                 <p>Rainforest Partnership is an international nonprofit dedicated to protecting tropical rainforests, by working directly with rainforest communities to sustainably develop products found in the forest, giving the community a stake in keeping their trees intact.</p>
                 <p>Learn more about Rainforest Partnership and how you can support our work engaging rainforest communities to preserve the rainforest.</p>
-                <p><a href="www.worldrainforestpartnership.com">World Rainforest Partnership</a></p>
+                <p><a href="www.worldrainforestpartnership.com">Rainforest Partnership</a></p>
                 <br/>
                 <br/>
                 <br/>

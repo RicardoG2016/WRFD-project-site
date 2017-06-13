@@ -64,7 +64,8 @@ body
 
 .HomeContent {
   width: 100%;
-  margin-top: 20%;
+  margin-top: 15%;
+  padding-top: 30px;
   display: inline-block;
   color: white;
 }
@@ -266,7 +267,7 @@ iframe, .twitter {
   margin-top: 90px; 
   height: 100%;
   width: 100%;
-  background-image: url(./images/people/group.png);
+  background-image: url(./images/animals/butterfly-3.png);
   background-size: cover;
   background-position: center center;
 }
@@ -468,9 +469,9 @@ footer {
   }
 
   .HomeButton {
-    width: 180px;
-    height: 90px;
-    font-size: 18px;
+    width: 130px;
+    height: 60px;
+    font-size: 17px;
     border: 2px solid white;
   }
 
@@ -482,12 +483,9 @@ footer {
     font-size: 30px;
   }
 
-}
-
-@media screen and (max-width: 767px) {
   h1 {
-  font-size: 45px;
-  font-weight: bold;
+    font-size: 45px;
+    font-weight: bold;
   }
 
   h3 {
@@ -498,19 +496,15 @@ footer {
     font-size: 14px;
   }
 
-  .HomeButton {
-    width: 120px;
-    height: 70px;
-    font-size: 18px;
-    border: 2px solid white;
-  }
+}
 
+@media screen and (max-width: 767px) {
   .Homepage {
     padding-left: 3%;
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 450px) {
   .HomeContent {
     margin-top: 35%;
     text-align: center;

@@ -13,10 +13,11 @@ class Home extends Component {
         <div id="home">
             <div className="Homepage">
                 <div className="HomeContent">
-                    <h4>Let's Celebrate the Rainforest</h4>
                     <h1>World Rainforest Day</h1>
                     <hr />
                     <h3>June 22 2017</h3>
+                    <br/>
+                    <h4>Because the world can't wait</h4>
                 </div>
                 <br/>
                 <br/>

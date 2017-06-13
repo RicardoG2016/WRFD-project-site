@@ -11,8 +11,6 @@
         target: '.fixed-top',
         offset: 60
     });
-
-    // new WOW().init();
     
     $('a.page-scroll').bind('click', function(event) {
         var $ele = $(this);
