@@ -6,6 +6,11 @@ import '../styles/Nav.css';
 import wrd from '../images/logos/wrd.png';
 
 class Nav extends Component {
+  
+componentDidMount(){
+  window.scrollTo(0, 0);
+}
+
   render() {
 
     return (

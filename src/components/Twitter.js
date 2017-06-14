@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import '../App.css';
 
 class Twitter extends Component {
+  
+componentDidMount(){
+  window.scrollTo(0, 0);
+}
+
   render() {
     return (
         <section className="container">

@@ -7,8 +7,13 @@ import Partners from './Partners';
 import Purpose from './Purpose';
 
 class Home extends Component {
-  render() {
 
+  componentDidMount(){
+    console.log('home');
+    window.scrollTo(0, 0)
+  }
+
+  render() {
     return (
         <div id="home">
             <div className="Homepage">

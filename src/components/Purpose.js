@@ -10,6 +10,7 @@ import bf from '../images/animals/butterfly-1.png';
 
 
 class Purpose extends Component {
+
   render() {
     return (
       <div className="container">

@@ -22,7 +22,7 @@ import Partners from './components/Partners';
 import Footer from './components/Footer';
 
 const Routes = () => (
-  <Router>
+  <Router >
     <div>
       <Route path="/" component={Nav}/>
       <Route exact path="/" component={Home}/>

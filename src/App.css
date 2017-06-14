@@ -40,32 +40,29 @@ body
 }
 
 .Homepage {
-  /*min-height: 568px;*/
+  min-height: 568px;
   width: 100%;
   letter-spacing: .5em;
   text-transform: uppercase;
   background-image: url(./images/scenes/b.png);
-  background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
   height: 100vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
   z-index: -1;
   padding-left: 6%;
   padding-right: 6%;
   text-align: left;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='$url_0', sizingMethod='scale')";
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='$url_0', sizingMethod='scale'); 
   margin-bottom: 80px;
-  }
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='$url_0', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='$url_0', sizingMethod='scale');
+}
+  
 
 .HomeContent {
   width: 100%;
-  margin-top: 15%;
+  margin-top: 10%;
   padding-top: 30px;
   display: inline-block;
   color: white;
@@ -80,9 +77,9 @@ h3 {
   font-size: 65px;
 }
 
-.btn-section {
+/*.btn-section {
   margin-top: 7%;
-}
+}*/
 
 .HomeButton {
   background-color: transparent;
@@ -532,7 +529,6 @@ footer {
 
   .Homepage {
     line-height: 110%;
-    text-align: center;
     padding-left: 0;
     padding-right: 0;
     margin-bottom: 10px;
@@ -560,9 +556,9 @@ footer {
   }
 
   .HomeButton {
-    width: 95px;
+    width: 110px;
     height: 55px;
-    font-size: 13px;
+    font-size: 12px;
     border: 2px solid white;
   }
 
@@ -592,7 +588,7 @@ footer {
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
 
 
   .left-footer > span {

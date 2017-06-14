@@ -14,6 +14,11 @@ import h_3 from '../images/scenes/home_3.png';
 
 
 class Images extends Component {
+    
+componentDidMount(){
+  window.scrollTo(0, 0);
+}
+
   render() {
     return (
         <div className="container">

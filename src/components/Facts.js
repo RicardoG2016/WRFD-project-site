@@ -18,6 +18,11 @@ import f14 from '../images/facts/14.png';
 
 
 class Facts extends Component {
+  
+componentDidMount(){
+  window.scrollTo(0, 0);
+}
+
   render() {
     return (
         <div className="container">

@@ -4,10 +4,14 @@ import insta from '../images/logos/instagram.png';
 import fb from '../images/logos/fb.png';
 import tw from '../images/logos/twitter.png';
 import yt from '../images/logos/youtube.png';
-import mu from '../images/logos/meetup.png';
-import rp from '../images/logos/rp.png';
 
 class Contact extends Component {
+
+  componentDidMount(){
+    console.log('contact');
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
         <div id="contact">
