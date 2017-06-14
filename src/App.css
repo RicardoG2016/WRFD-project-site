@@ -40,7 +40,7 @@ body
 }
 
 .Homepage {
-  min-height: 568px;
+  /*min-height: 568px;*/
   width: 100%;
   letter-spacing: .5em;
   text-transform: uppercase;
