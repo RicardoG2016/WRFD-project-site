@@ -32,14 +32,14 @@ const Routes = () => (
       <Route path="/blog" component={Blog}/>
       <Route path="/contact" component={Contact}/>
       <Route path="/twitter" component={Twitter}/>
-      <Route path="/tips" component={Tips}/>
+      <Route path="/act" component={Tips}/>
       <Route path="/wrd" component={WRD}/>
       <Route path="/partners" component={Partners}/>
       <Route path="/rp" component={Rp}/>
       <Route path="/gallery" component={Img}/>
       <Route path="/help" component={Help}/>
       <Route path="/volunteer" component={Volunteer}/>
-      <Route path="/facts" component={Facts}/>
+      <Route path="/rainforestfacts" component={Facts}/>
       <Route path="/" component={Footer}/>
     </div>
   </Router>

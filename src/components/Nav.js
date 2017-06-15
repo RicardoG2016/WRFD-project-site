@@ -6,7 +6,7 @@ import '../styles/Nav.css';
 import wrd from '../images/logos/wrd.png';
 
 class Nav extends Component {
-  
+
 componentDidMount(){
   window.scrollTo(0, 0);
 }
@@ -43,7 +43,7 @@ componentDidMount(){
                     <li className="dropdown">
                       <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Take Action <span className="caret"></span></a>
                       <ul className="dropdown-menu">
-                        <li><Link to="/action">Act Now</Link></li>
+                        <li><Link to="/act">Act Now</Link></li>
                         <li><Link to="/twitter">Share</Link></li>
                       </ul>
                     </li>
