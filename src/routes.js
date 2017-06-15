@@ -33,9 +33,9 @@ const Routes = () => (
       <Route path="/contact" component={Contact}/>
       <Route path="/twitter" component={Twitter}/>
       <Route path="/act" component={Tips}/>
-      <Route path="/wrd" component={WRD}/>
+      <Route path="/worldrainforestday" component={WRD}/>
       <Route path="/partners" component={Partners}/>
-      <Route path="/rp" component={Rp}/>
+      <Route path="/rainforestpartnership" component={Rp}/>
       <Route path="/gallery" component={Img}/>
       <Route path="/help" component={Help}/>
       <Route path="/volunteer" component={Volunteer}/>

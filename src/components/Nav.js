@@ -35,9 +35,9 @@ componentDidMount(){
                     <li className="dropdown">
                       <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span className="caret"></span></a>
                       <ul className="dropdown-menu">
-                        <li><Link to="/wrd">World Rainforest Day</Link></li>
-                        <li><Link to="/rp">Rainforest Partnership</Link></li>
-                        <li><Link to="/facts">Rainforest Facts</Link></li>
+                        <li><Link to="/worldrainforestday">World Rainforest Day</Link></li>
+                        <li><Link to="/rainforestpartnership">Rainforest Partnership</Link></li>
+                        <li><Link to="/rainforestfacts">Rainforest Facts</Link></li>
                       </ul>
                     </li>
                     <li className="dropdown">

@@ -87,10 +87,11 @@ h3 {
   width: 200px;
   margin-left: 2%;
   margin-right: 2%;
-  border: solid 5px white;
+  border: solid 4px white;
   color: white;
   font-size: 30px;
   font-weight: bolder;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.2);
 }
 
 .HomeButton:hover {
@@ -404,7 +405,11 @@ img.img-responsive {
 /*cards*/
 
 .card {
-  padding: 15px;
+  padding: 30px 10px;
+}
+
+.card-header {
+  font-size: 45px !important;
 }
 
 .card-img-top {
@@ -688,6 +693,13 @@ footer {
     border: 2px solid white;
     height: 50px;
     font-size: 12px;
+  }
+
+  .card-title {
+    font-size: 25px;
+  }
+  .card-text {
+    font-size: 16px;
   }
 }
 

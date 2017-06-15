@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../App.css';
 
 class WRD extends Component {
-  
+
 componentDidMount(){
   window.scrollTo(0, 0);
 }
@@ -14,7 +14,7 @@ componentDidMount(){
               <div className="col-md-6 col-2 bg-inverse text-white py-2 d-flex align-items-center justify-content-center" id="left">
                 <div className="l-sec">
                   <div className="about">
-                    <h5 className="hidden-xs-down l-content wrd">World Rainforest Day<br/><br/>Because the World Can’t Wait</h5>
+                    <h5 className="hidden-xs-down l-content wrd">World Rainforest Day<br/>Because the World Can’t Wait</h5>
                   </div>
                 </div>
               </div>

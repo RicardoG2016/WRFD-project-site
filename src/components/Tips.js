@@ -21,7 +21,7 @@ componentDidMount(){
       <div className="container">
               <div className="row space">
                   <div className="col-lg-12">
-                      <h3 className="Header">Act Now</h3>
+                      <h3 className="Header card-header">Act Now</h3>
                   </div>
                   <br />
                   <br />
@@ -33,7 +33,7 @@ componentDidMount(){
                       <div className="card-block">
                         <h4 className="card-title">Meatless Monday</h4>
                         <p className="card-text text-muted">Cattle farming contributes to deforestation. Eat a meatless meal for a week</p>
-                        <a href="#" className="btn btn-primary tip-btn">Learn More</a>
+                        <a href="https://rainforestpartnership.org/the-beef-industry-and-deforestation/" className="btn btn-primary tip-btn">Learn More</a>
                       </div>
                     </div>
                   </div>
@@ -44,7 +44,7 @@ componentDidMount(){
                       <div className="card-block">
                         <h4 className="card-title">Pass on Palm Oil</h4>
                         <p className="card-text text-muted">Rainforests are being cleared to expand palm plantations. Choose products that use alternative oils. </p>
-                        <a href="#" className="btn btn-primary tip-btn">Learn More</a>
+                        <a href="https://rainforestpartnership.org/oil-palm-plantations-create-barriers-rainforest-butterflies/" className="btn btn-primary tip-btn">Learn More</a>
                       </div>
                     </div>
                   </div>
@@ -58,7 +58,7 @@ componentDidMount(){
                       <div className="card-block">
                         <h4 className="card-title">Support Rainforest Protectors</h4>
                         <p className="card-text text-muted">Your dollars make a difference. Contribute to organizations dedicated to preserving our rainforests.</p>
-                        <a href="#" className="btn btn-primary tip-btn">Learn More</a>
+                        <a href="https://rainforestpartnership.org/partner-with-us/donation/" className="btn btn-primary tip-btn">Learn More</a>
                       </div>
                     </div>
                   </div>
@@ -68,7 +68,7 @@ componentDidMount(){
                       <div className="card-block">
                         <h4 className="card-title">Take a Deep Breath</h4>
                         <p className="card-text text-muted">Rainforests are the lungs of the planet. Breathe deeply and thank the rainforest for cleaning our air.</p>
-                        <a href="#" className="btn btn-primary tip-btn">Learn More</a>
+                        <a href="https://rainforestpartnership.org/the-carbon-sink/" className="btn btn-primary tip-btn">Learn More</a>
                       </div>
                     </div>
                   </div>
