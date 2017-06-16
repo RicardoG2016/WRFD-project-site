@@ -624,6 +624,15 @@ iframe {
 }
 
 @media screen and (max-width: 414px) {
+  .subscribe {
+    height: 250px !important;
+  }
+
+  .form-control-lg {
+    width: 95% !important;
+    margin: 10px auto;
+    padding: 10px;
+  }
 
   #text {
     padding: 30px;
