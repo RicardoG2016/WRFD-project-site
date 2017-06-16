@@ -29,7 +29,7 @@ class Home extends Component {
                 <div className="btn-section">
                     <Link to="/worldrainforestday"><button className="HomeButton one" ><span>Learn More</span></button></Link>
                     <Link to="/act"><button className="HomeButton one" ><span>Take Action</span></button></Link>
-                    <a href="https://rainforestpartnership.org/partner-with-us/donation/"><button className="HomeButton third" ><span>Donate</span></button></a>
+                    <Link to="/donate"><button className="HomeButton third" ><span>Donate</span></button></Link>
                 </div>
             </div>
             <div>
