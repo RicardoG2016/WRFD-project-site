@@ -34,17 +34,17 @@ componentDidMount(){
 
           <div className="row">
               <div className="col-md-4 portfolio-item">
-                  <a href="#">
+                  <a href="https://s3.us-east-2.amazonaws.com/worldrainforestday-images/fact_img_1.jpg">
                       <img className="img-responsive" src={f1} alt="" />
                   </a>
               </div>
               <div className="col-md-4 portfolio-item">
-                  <a href="#">
+                  <a href="https://s3.us-east-2.amazonaws.com/worldrainforestday-images/fact_img_2.jpg">
                       <img className="img-responsive" src={f2} alt="" />
                   </a>
               </div>
               <div className="col-md-4 portfolio-item">
-                  <a href="#">
+                  <a href="https://s3.us-east-2.amazonaws.com/worldrainforestday-images/fact_img_3.jpg">
                       <img className="img-responsive" src={f3} alt="" />
                   </a>
               </div>
@@ -52,17 +52,17 @@ componentDidMount(){
 
           <div className="row">
               <div className="col-md-4 portfolio-item">
-                  <a href="#">
+                  <a href="https://s3.us-east-2.amazonaws.com/worldrainforestday-images/fact_img_4.jpg">
                       <img className="img-responsive" src={f4} alt="" />
                   </a>
               </div>
               <div className="col-md-4 portfolio-item">
-                  <a href="#">
+                  <a href="https://s3.us-east-2.amazonaws.com/worldrainforestday-images/fact_img_5.jpg">
                       <img className="img-responsive" src={f5} alt="" />
                   </a>
               </div>
               <div className="col-md-4 portfolio-item">
-                  <a href="#">
+                  <a href="https://s3.us-east-2.amazonaws.com/worldrainforestday-images/fact_img_6.jpg">
                       <img className="img-responsive" src={f6} alt="" />
                   </a>
               </div>
@@ -70,17 +70,17 @@ componentDidMount(){
 
           <div className="row">
               <div className="col-md-4 portfolio-item">
-                  <a href="#">
+                  <a href="https://s3.us-east-2.amazonaws.com/worldrainforestday-images/fact_img_7.jpg">
                       <img className="img-responsive" src={f7} alt="" />
                   </a>
               </div>
               <div className="col-md-4 portfolio-item">
-                  <a href="#">
+                  <a href="https://s3.us-east-2.amazonaws.com/worldrainforestday-images/fact_img_8.jpg">
                       <img className="img-responsive" src={f8} alt="" />
                   </a>
               </div>
               <div className="col-md-4 portfolio-item">
-                  <a href="#">
+                  <a href="https://s3.us-east-2.amazonaws.com/worldrainforestday-images/fact_img_9.jpg">
                       <img className="img-responsive" src={f9} alt="" />
                   </a>
               </div>
@@ -88,17 +88,17 @@ componentDidMount(){
 
           <div className="row">
               <div className="col-md-4 portfolio-item">
-                  <a href="#">
+                  <a href="https://s3.us-east-2.amazonaws.com/worldrainforestday-images/fact_img_10.jpg">
                       <img className="img-responsive" src={f10} alt="" />
                   </a>
               </div>
               <div className="col-md-4 portfolio-item">
-                  <a href="#">
+                  <a href="https://s3.us-east-2.amazonaws.com/worldrainforestday-images/fact_img_11.jpg">
                       <img className="img-responsive" src={f11} alt="" />
                   </a>
               </div>
               <div className="col-md-4 portfolio-item">
-                  <a href="#">
+                  <a href="https://s3.us-east-2.amazonaws.com/worldrainforestday-images/fact_img_12.jpg">
                       <img className="img-responsive" src={f12} alt="" />
                   </a>
               </div>

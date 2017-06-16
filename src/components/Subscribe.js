@@ -5,10 +5,13 @@ class Subscribe extends Component {
   render() {
     return (
         <div className="subscribe">
-          <form className="form-inline sub-form form-check mb-2 mr-sm-2 mb-sm-0">
-              <input type="text" className="form-control form-control-lg" id="lgFormGroupInput" placeholder="Name" />
-              <input type="email" className="form-control form-control-lg" id="lgFormGroupInput" placeholder="Email" />
-              <button type="submit" className="btn btn-primary">Subscribe</button>
+          <span className="Header">Subscribe</span>
+          <br/>
+          <form action="https://formspree.io/worldrainforestday@rainforestpartnership.org" method="POST" className="form-inline sub-form form-check mb-2 mr-sm-2 mb-sm-0">
+              <input type="text" name="_gotcha" style={{display:'none'}} />
+              <input type="hidden" name="_subject" value="New Subscriber!" />
+              <input type="email" className="form-control form-control-lg" id="lgFormGroupInput" name="_replyto" placeholder="Email" subject="subscribe"/>
+              <button type="submit" className="btn-lg btn-secondary">Stay in touch</button>
           </form>
         </div>
     );

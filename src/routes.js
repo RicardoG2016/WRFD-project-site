@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom';
 
 import Action from './components/Action';
-import Blog from './components/Blog';
+import Donate from './components/Donate';
 import About from './components/About';
 import Nav from './components/Nav';
 import Home from './components/Home';
@@ -15,8 +15,6 @@ import Tips from './components/Tips';
 import WRD from './components/WRD';
 import Rp from './components/Rp';
 import Img from './components/Img';
-import Help from './components/Help';
-import Volunteer from './components/Volunteer';
 import Facts from './components/Facts';
 import Partners from './components/Partners';
 import Footer from './components/Footer';
@@ -29,7 +27,7 @@ const Routes = () => (
       <Route path="/home" component={Home}/>
       <Route path="/action" component={Action}/>
       <Route path="/about" component={About}/>
-      <Route path="/blog" component={Blog}/>
+      <Route path="/donate" component={Donate}/>
       <Route path="/contact" component={Contact}/>
       <Route path="/twitter" component={Twitter}/>
       <Route path="/act" component={Tips}/>
@@ -37,8 +35,6 @@ const Routes = () => (
       <Route path="/partners" component={Partners}/>
       <Route path="/rainforestpartnership" component={Rp}/>
       <Route path="/gallery" component={Img}/>
-      <Route path="/help" component={Help}/>
-      <Route path="/volunteer" component={Volunteer}/>
       <Route path="/rainforestfacts" component={Facts}/>
       <Route path="/" component={Footer}/>
     </div>

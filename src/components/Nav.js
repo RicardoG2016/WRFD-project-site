@@ -38,6 +38,7 @@ componentDidMount(){
                         <li><Link to="/worldrainforestday">World Rainforest Day</Link></li>
                         <li><Link to="/rainforestpartnership">Rainforest Partnership</Link></li>
                         <li><Link to="/rainforestfacts">Rainforest Facts</Link></li>
+                        <li><a href="https://s3.us-east-2.amazonaws.com/worldrainforestday-pressrelease/press.pdf">Press Release</a></li>
                       </ul>
                     </li>
                     <li className="dropdown">
@@ -48,7 +49,7 @@ componentDidMount(){
                       </ul>
                     </li>
                     <li><Link to="/contact">Contact</Link></li>
-                    <li><span><a href="https://rainforestpartnership.org/partner-with-us/donation/"><button className="navdo donate btn-lg btn-secondary btn">Donate</button></a></span></li>
+                    <li><span><Link to="/donate"><button className="navdo donate btn-lg btn-secondary btn">Donate</button></Link></span></li>
                 </ul>
               </div>
             </div>

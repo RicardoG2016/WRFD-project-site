@@ -21,7 +21,7 @@ componentDidMount(){
       <div className="container">
               <div className="row space">
                   <div className="col-lg-12">
-                      <h3 className="Header card-header">Act Now</h3>
+                      <h3 style={{textAlign: 'center'}} className="text-muted">Act Now</h3>
                   </div>
                   <br />
                   <br />

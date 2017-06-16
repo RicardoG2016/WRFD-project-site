@@ -4,11 +4,11 @@ import insta from '../images/logos/instagram.png';
 import fb from '../images/logos/fb.png';
 import tw from '../images/logos/twitter.png';
 import yt from '../images/logos/youtube.png';
+import { Link } from 'react-router-dom';
 
 class Contact extends Component {
 
   componentDidMount(){
-    console.log('contact');
     window.scrollTo(0, 0);
   }
 
@@ -24,6 +24,8 @@ class Contact extends Component {
                 </div>
               </div>
               <div className="contact-form col offset-2 offset-sm-6 py-2 text-muted"  id="text">
+                <h3>Lets Talk</h3>
+                <br/>
                 <p>World Rainforest Day is a collaborative global effort envisioned and organized by Rainforest Partnership.</p>
                 <p>Rainforest Partnership is an international nonprofit dedicated to protecting tropical rainforests, by working directly with rainforest communities to sustainably develop products found in the forest, giving the community a stake in keeping their forests intact.</p>
                 <p>Learn more about Rainforest Partnership and how you can support our work engaging rainforest communities to preserve the rainforest.</p>
@@ -37,10 +39,12 @@ class Contact extends Component {
                   <a href="http://www.youtube.com"><img className="social" src={yt} alt="youtube" /></a>
                 </div>
                 <hr/>
+                <a href="https://s3.us-east-2.amazonaws.com/worldrainforestday-pressrelease/press.pdf"><h4>Press Release</h4></a>
+                <hr/>
                 <h4>Email</h4>
                 <br/>
 
-                 <form action="https://formspree.io/ricardo@rainforestpartnership.org" method="POST">
+                 <form action="https://formspree.io/worldrainforestday@rainforestpartnership.org" method="POST">
                   <div className="form-group">
                     <input type="text" className="form-control" id="name" name="name" placeholder="Name" />
                   </div>

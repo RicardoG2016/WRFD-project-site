@@ -5,6 +5,7 @@ import '../App.css';
 import Twitter from './Twitter';
 import Partners from './Partners';
 import Purpose from './Purpose';
+import Subscribe from './Subscribe';
 
 class Home extends Component {
 
@@ -35,7 +36,7 @@ class Home extends Component {
             </div>
             <div>
                 <Purpose />
-                <br/>
+                <Subscribe />
             </div>
         </div>
     );
