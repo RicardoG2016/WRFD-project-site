@@ -7,6 +7,7 @@ class Subscribe extends Component {
         <div className="subscribe">
           <span className="Header">Subscribe</span>
           <br/>
+          <br/>
           <form action="https://formspree.io/worldrainforestday@rainforestpartnership.org" method="POST" className="form-inline sub-form form-check mb-2 mr-sm-2 mb-sm-0">
               <input type="text" name="_gotcha" style={{display:'none'}} />
               <input type="hidden" name="_subject" value="New Subscriber!" />
