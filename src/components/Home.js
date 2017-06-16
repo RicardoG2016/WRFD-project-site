@@ -35,9 +35,6 @@ class Home extends Component {
             </div>
             <div>
                 <Purpose />
-                <hr/>
-                <Twitter />
-                <br/>
                 <br/>
             </div>
         </div>

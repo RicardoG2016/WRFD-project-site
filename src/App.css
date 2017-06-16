@@ -1,7 +1,6 @@
 html,body
 {
   width: 100%;
-  /*height: 100vh;*/
   margin: 0px;
   padding: 0px;
   overflow-x: hidden; 
@@ -25,7 +24,6 @@ body
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  /*height: 80px;*/
 }
 
 .App-header {
@@ -76,10 +74,6 @@ h1 {
 h3 {
   font-size: 65px;
 }
-
-/*.btn-section {
-  margin-top: 7%;
-}*/
 
 .HomeButton {
   background-color: transparent;
@@ -493,6 +487,11 @@ footer {
   text-align: center;
 }
 
+iframe {
+   width:100%;
+   height:700px;
+}
+
 @media screen and (min-width: 992px) {
   img.img-responsive {
     margin: auto;
@@ -586,6 +585,12 @@ footer {
     font-size: 22px;
   }
 
+  iframe {
+    max-width:390px !important;
+    padding-left:5px;
+    padding-right: 5px;
+  }
+
 }
 
 @media screen and (max-width: 414px) {
@@ -657,7 +662,11 @@ footer {
 }
 
 @media screen and (max-width: 360px) {
-
+  .twitter {
+    max-width:340px !important;
+    padding-left:5px;
+    padding-right: 5px;
+  }
 
   .left-footer > span {
     font-size: 10px;

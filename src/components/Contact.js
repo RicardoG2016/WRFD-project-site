@@ -39,18 +39,19 @@ class Contact extends Component {
                 <hr/>
                 <h4>Email</h4>
                 <br/>
-                 <form>
+
+                 <form action="https://formspree.io/ricardo@rainforestpartnership.org" method="POST">
                   <div className="form-group">
-                    <input type="text" className="form-control" id="name" placeholder="Name" />
+                    <input type="text" className="form-control" id="name" name="name" placeholder="Name" />
                   </div>
                   <div className="form-group">
-                    <input type="email" className="form-control" id="email" placeholder="Email" />
+                    <input type="email" className="form-control" id="email" name="_replyto" placeholder="Your Email" />
                   </div>
                   <div className="form-group">
-                    <input type="text" className="form-control" id="subject" placeholder="Subject" />
+                    <input type="text" className="form-control" id="subject" name="subject" placeholder="Subject" />
                   </div>
                   <div className="form-group">
-                    <textarea type="text" className="form-control" id="message" placeholder="Message" />
+                    <textarea type="text" className="form-control" id="message" name="message" placeholder="Message" />
                   </div>
                   <button type="submit" className="donate btn-lg btn-secondary btn">Submit</button>
                 </form>
