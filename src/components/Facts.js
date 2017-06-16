@@ -13,9 +13,6 @@ import f9 from '../images/facts/9.png';
 import f10 from '../images/facts/10.png';
 import f11 from '../images/facts/11.png';
 import f12 from '../images/facts/12.png';
-import f13 from '../images/facts/13.png';
-import f14 from '../images/facts/14.png';
-
 
 class Facts extends Component {
   

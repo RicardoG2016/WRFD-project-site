@@ -605,6 +605,10 @@ iframe {
     text-align: center;
   }
 
+  .Homepage {
+    background-image: url(./images/scenes/bb.png);  
+  }
+
   .HomeButton {
     width: 110px;
     height: 60px;

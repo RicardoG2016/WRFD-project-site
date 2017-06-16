@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import bean from '../images/products/bean.png';
-import f_11 from '../images/scenes/air_river.png';
 import f_10 from '../images/scenes/f_10.png';
-import f_8 from '../images/scenes/f_8.png';
-import f_7 from '../images/scenes/f_7.png';
 import f_4 from '../images/scenes/f_4.png';
 import bf from '../images/animals/butterfly-1.png';
 
@@ -31,9 +28,6 @@ class Purpose extends Component {
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
                 <li data-target="#myCarousel" data-slide-to="3"></li>
-                <li data-target="#myCarousel" data-slide-to="4"></li>
-                <li data-target="#myCarousel" data-slide-to="5"></li>
-                <li data-target="#myCarousel" data-slide-to="6"></li>
               </ol>
               <div className="carousel-inner" role="listbox">
                 <div className="item active">
@@ -48,15 +42,6 @@ class Purpose extends Component {
                 <div className="item">
                   <img className="third-slide" src={f_4} alt="Third slide" />
                 </div>
-                <div className="item">
-                  <img className="third-slide" src={f_11} alt="Third slide" />
-                </div>
-                <div className="item">
-                  <img className="third-slide" src={f_8} alt="Third slide" />
-                </div>
-                <div className="item">
-                  <img className="third-slide" src={f_7} alt="Third slide" />
-                </div>
               </div>
             </div>
           </div>
@@ -67,27 +52,3 @@ class Purpose extends Component {
 }
 
 export default Purpose;
-
-// <hr className="divider"/>
-
-//       <div className="row featurette">
-//         <div className="col-md-5 col-md-push-7">
-//           <h2 className="featurette-heading">Oh yeah, it's that good. <span className="text-muted">See for yourself.</span></h2>
-//           <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-//         </div>
-//         <div className="col-md-7 col-md-pull-5">
-//           <img className="featurette-image img-responsive center-block" src={b} alt="Generic placeholder image" />
-//         </div>
-//       </div>
-
-// <hr className="divider"/>
-
-//       <div className="row featurette">
-//         <div className="col-md-5">
-//           <h2 className="featurette-heading">And lastly, this one. <span className="text-muted">Checkmate.</span></h2>
-//           <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-//         </div>
-//         <div className="col-md-7">
-//           <img className="featurette-image img-responsive center-block" src={c} alt="Generic placeholder image" />
-//         </div>
-//       </div>

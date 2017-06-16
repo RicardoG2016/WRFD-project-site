@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-import bean from '../images/products/bean.png';
-import nomeat from '../images/nomeat.png';
-import no from '../images/n.png';
 import trees from '../images/trees.png';
 import oil from '../images/oil2.png';
 import salad from '../images/salad.png';
@@ -29,9 +26,9 @@ componentDidMount(){
               <div className="row">
                   <div className="col-md-6">
                     <div className="card">
-                      <img className="card-img-top no" src={salad} alt="Card image cap" />
+                      <img className="card-img-top no" src={salad} alt="Meatless Monday" />
                       <div className="card-block">
-                        <h4 className="card-title">Meatless Monday</h4>
+                        <h4 className="card-title">Meat Free Week</h4>
                         <p className="card-text text-muted">Cattle farming contributes to deforestation. Eat a meatless meal for a week</p>
                         <a href="https://rainforestpartnership.org/the-beef-industry-and-deforestation/" className="btn btn-primary tip-btn">Learn More</a>
                       </div>

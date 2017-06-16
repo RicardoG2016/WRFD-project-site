@@ -14,7 +14,6 @@ import Twitter from './components/Twitter';
 import Tips from './components/Tips';
 import WRD from './components/WRD';
 import Rp from './components/Rp';
-import Img from './components/Img';
 import Facts from './components/Facts';
 import Partners from './components/Partners';
 import Footer from './components/Footer';
@@ -34,7 +33,6 @@ const Routes = () => (
       <Route path="/worldrainforestday" component={WRD}/>
       <Route path="/partners" component={Partners}/>
       <Route path="/rainforestpartnership" component={Rp}/>
-      <Route path="/gallery" component={Img}/>
       <Route path="/rainforestfacts" component={Facts}/>
       <Route path="/" component={Footer}/>
     </div>

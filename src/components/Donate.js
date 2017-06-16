@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
 import '../App.css';
-import insta from '../images/logos/instagram.png';
-import fb from '../images/logos/fb.png';
-import tw from '../images/logos/twitter.png';
-import m from '../images/people/m.png';
 
 class Donate extends Component {
 

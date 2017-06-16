@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css';
 
-import Twitter from './Twitter';
 import Partners from './Partners';
 import Purpose from './Purpose';
 import Subscribe from './Subscribe';
@@ -10,7 +9,6 @@ import Subscribe from './Subscribe';
 class Home extends Component {
 
   componentDidMount(){
-    console.log('home');
     window.scrollTo(0, 0)
   }
 
@@ -29,8 +27,8 @@ class Home extends Component {
                 <br/>
                 <br/>
                 <div className="btn-section">
-                    <Link to="/about"><button className="HomeButton one" ><span>Learn More</span></button></Link>
-                    <Link to="/action"><button className="HomeButton one" ><span>Take Action</span></button></Link>
+                    <Link to="/worldrainforestday"><button className="HomeButton one" ><span>Learn More</span></button></Link>
+                    <Link to="/act"><button className="HomeButton one" ><span>Take Action</span></button></Link>
                     <a href="https://rainforestpartnership.org/partner-with-us/donation/"><button className="HomeButton third" ><span>Donate</span></button></a>
                 </div>
             </div>
