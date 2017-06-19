@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
 import bean from '../images/products/bean.png';
-import f_10 from '../images/scenes/f_10.png';
 import f_4 from '../images/scenes/f_4.png';
 import bf from '../images/animals/butterfly-1.png';
 
@@ -27,20 +26,16 @@ class Purpose extends Component {
                 <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
               </ol>
               <div className="carousel-inner" role="listbox">
                 <div className="item active">
-                  <img className="first-slide" src={f_10} alt="First slide" />
+                  <img className="first-slide" src={f_4} alt="First slide" />
                 </div>
                 <div className="item">
                   <img className="second-slide" src={bf} alt="Second slide" />
                 </div>
                 <div className="item">
                   <img className="second-slide" src={bean} alt="Second slide" />
-                </div>
-                <div className="item">
-                  <img className="third-slide" src={f_4} alt="Third slide" />
                 </div>
               </div>
             </div>

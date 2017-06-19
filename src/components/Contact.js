@@ -4,6 +4,7 @@ import insta from '../images/logos/instagram.png';
 import fb from '../images/logos/fb.png';
 import tw from '../images/logos/twitter.png';
 import yt from '../images/logos/youtube.png';
+import { Link } from 'react-router-dom';
 
 class Contact extends Component {
 
@@ -23,26 +24,26 @@ class Contact extends Component {
                 </div>
               </div>
               <div className="contact-form col offset-2 offset-sm-6 py-2 text-muted"  id="text">
-                <h3>Lets Talk</h3>
+                <h3>Let's Talk</h3>
                 <br/>
-                <p>World Rainforest Day is a collaborative global effort envisioned and organized by Rainforest Partnership.</p>
-                <p>Rainforest Partnership is an international nonprofit dedicated to protecting tropical rainforests, by working directly with rainforest communities to sustainably develop products found in the forest, giving the community a stake in keeping their forests intact.</p>
-                <p>Learn more about Rainforest Partnership and how you can support our work engaging rainforest communities to preserve the rainforest.</p>
+                <p>Rainforest Partnership envisioned and launched World Rainforest Day to be a collaborative effort in raising awareness about rainforests.</p>
+                <p>We invite and welcome partnerships and innovative approaches from like-minded entities and individuals around the globe.</p>
+                <p>Help us launch the inaugural World Rainforest Day.</p>
+                <p style={{fontStyle:"italic", fontWeight: "bold"}}>Because the World Can’t Wait…</p>
                 <br/>
                 <hr/>
                 <h4>Social</h4>
                 <div>
                   <a href="https://www.instagram.com/worldrainforestday/"><img className="social" src={insta} alt="instagram" /></a>
-                  <a href="http://www.facebook.com"><img className="social" src={fb} alt="facebook" /></a>
-                  <a href="http://www.twitter.com"><img className="social" src={tw} alt="twitter" /></a>
-                  <a href="http://www.youtube.com"><img className="social" src={yt} alt="youtube" /></a>
+                  <a href="https://www.facebook.com/worldrainforestday/"><img className="social" src={fb} alt="facebook" /></a>
+                  <a href="https://twitter.com/Rainforest_Day"><img className="social" src={tw} alt="twitter" /></a>
                 </div>
                 <hr/>
                 <a href="https://s3.us-east-2.amazonaws.com/worldrainforestday-pressrelease/press.pdf"><h4>Press Release</h4></a>
                 <hr/>
-                <h4>Email</h4>
-                <br/>
-
+                <Link to="/become_a_partner"><h4>Become a Partner</h4></Link>
+                <hr/>
+                <h4 style={{paddingBottom: "10px"}}>Contact Us:</h4>
                  <form action="https://formspree.io/worldrainforestday@rainforestpartnership.org" method="POST">
                   <div className="form-group">
                     <input type="text" className="form-control" id="name" name="name" placeholder="Name" />
@@ -58,6 +59,7 @@ class Contact extends Component {
                   </div>
                   <button type="submit" className="donate btn-lg btn-secondary btn">Submit</button>
                 </form>
+                
                 <br/>
                 <br/>
                 <br/>

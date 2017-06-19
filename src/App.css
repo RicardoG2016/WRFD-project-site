@@ -109,8 +109,18 @@ iframe, .twitter {
 }
 
 /*Partners*/
+
+.partner-section {
+  align-items: center;
+
+}
+
 .partners {
-  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 800px;
+  width: 90%;
 }
 
 /*Header*/
@@ -291,13 +301,30 @@ span.Header {
   background-position: center center;
 }
 
-.donate-img {
-  margin-top: 90px; 
+.partner {
+  margin-top: 90px;
+  padding-top: 10px; 
   height: 100%;
   width: 100%;
-  background-image: url(./images/people/m.png);
+  background-image: url(./images/products/coffee.png);
   background-size: cover;
   background-position: center center;
+}
+
+.donate-img {
+  margin-top: 30px;
+  padding-top: 60px; 
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/scenes/f_10.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.do-img {
+  max-width: 230px;
+  padding: 20px;
+  width: 100%;
 }
 
 .facts {
@@ -533,6 +560,11 @@ iframe {
   center-btn. {
     margin-top: 50px;
   }
+
+  .donate-header {
+    font-size: 50px;
+  }
+
 }
 
 /*Mobile Responsiveness */

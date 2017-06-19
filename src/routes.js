@@ -16,6 +16,7 @@ import WRD from './components/WRD';
 import Rp from './components/Rp';
 import Facts from './components/Facts';
 import Partners from './components/Partners';
+import Become_a_partner from './components/Become_a_partner';
 import Footer from './components/Footer';
 
 const Routes = () => (
@@ -32,6 +33,7 @@ const Routes = () => (
       <Route path="/act" component={Tips}/>
       <Route path="/worldrainforestday" component={WRD}/>
       <Route path="/partners" component={Partners}/>
+      <Route path="/become_a_partner" component={Become_a_partner}/>
       <Route path="/rainforestpartnership" component={Rp}/>
       <Route path="/rainforestfacts" component={Facts}/>
       <Route path="/" component={Footer}/>

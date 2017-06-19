@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import '../App.css';
-import logos from '../images/partners.png';
+import { Link } from 'react-router-dom';
+import logos from '../images/logos/partners.png';
 
 class Partners extends Component {
   render() {
     return (
-        <div className="container">
+        <div className="container partner-section">
             <h3 className="Header">Partners</h3>
-            <p>World Rainforest Day is a colloborative effort to encourage worldwide awareness and action to save one of the earth’s most precious resources, our rainforest. Together with our partners we will continue to spread awareness, take action and work with local communities to help protect and preserve our Rainforest.</p>
-            <br />
-            <img className="partners" src={logos} alt="Second slide" />
+            <p>Rainforest Partnership would like to thank our collaborating partners for helping us launch the inaugural World Rainforest Day. Together, we aim to inform and activate an ongoing, ever increasing global response for protecting rainforests.</p>
+            <img className="partners" src={logos} alt="partner logos" />
+            <p style={{textAlign: "center", fontSize: "18px"}}>Interested in becoming a partner?<Link to="/become_a_partner"> Find out how.</Link></p>        
         </div>
     );
   }

@@ -34,6 +34,9 @@ class Home extends Component {
             </div>
             <div>
                 <Purpose />
+                <hr/>
+                <Partners />
+                <br/>
                 <Subscribe />
             </div>
         </div>

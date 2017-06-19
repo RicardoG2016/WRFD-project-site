@@ -13,9 +13,8 @@ class Footer extends Component {
             <div className="col-xl-12 left-footer">
               <span>© 2017 WorldRainforestDay</span>
               <a href="https://www.instagram.com/worldrainforestday/"><img className="social" src={insta} alt="instagram" /></a>
-              <a href="http://www.facebook.com"><img className="social" src={fb} alt="facebook" /></a>
-              <a href="http://www.twitter.com"><img className="social" src={tw} alt="twitter" /></a>
-              <a href="http://www.youtube.com"><img className="social" src={yt} alt="youtube" /></a>
+              <a href="https://www.facebook.com/worldrainforestday/"><img className="social" src={fb} alt="facebook" /></a>
+              <a href="https://twitter.com/Rainforest_Day"><img className="social" src={tw} alt="twitter" /></a>
             </div>
           </div>
         </footer>

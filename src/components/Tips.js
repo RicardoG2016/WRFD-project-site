@@ -40,7 +40,7 @@ componentDidMount(){
                       <img className="card-img-top oil" src={oil} alt="Card image cap" />
                       <div className="card-block">
                         <h4 className="card-title">Pass on Palm Oil</h4>
-                        <p className="card-text text-muted">Rainforests are being cleared to expand palm plantations. Choose products that use alternative oils. </p>
+                        <p className="card-text text-muted">Rainforests are being cleared to expand palm plantations. Choose products with alternative oils</p>
                         <a href="https://rainforestpartnership.org/oil-palm-plantations-create-barriers-rainforest-butterflies/" className="btn btn-primary tip-btn">Learn More</a>
                       </div>
                     </div>
@@ -54,7 +54,7 @@ componentDidMount(){
                       <img className="card-img-top" src={give} alt="Card image cap" />
                       <div className="card-block">
                         <h4 className="card-title">Support Rainforest Protectors</h4>
-                        <p className="card-text text-muted">Your dollars make a difference. Contribute to organizations dedicated to preserving our rainforests.</p>
+                        <p className="card-text text-muted">Your dollars make a difference. Contribute to organizations that preserve our rainforests.</p>
                         <a href="https://rainforestpartnership.org/partner-with-us/donation/" className="btn btn-primary tip-btn">Learn More</a>
                       </div>
                     </div>
