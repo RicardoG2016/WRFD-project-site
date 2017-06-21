@@ -5,6 +5,7 @@ import '../App.css';
 import Partners from './Partners';
 import Purpose from './Purpose';
 import Subscribe from './Subscribe';
+import Video from './Video';
 
 class Home extends Component {
 
@@ -35,6 +36,12 @@ class Home extends Component {
             <div>
                 <Purpose />
                 <hr/>
+                <Video />
+                <br/>
+                <br/>
+                <br/>
+                <hr/>
+                <br/>
                 <Partners />
                 <br/>
                 <Subscribe />
