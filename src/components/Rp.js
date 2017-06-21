@@ -22,9 +22,8 @@ componentDidMount(){
                 <h3>Let's Save the Rainforests</h3>
                 <br/>
                 <p>World Rainforest Day is a collaborative global effort envisioned and organized by the Rainforest Partnership. </p>
-                <p>Rainforest Partnership is an international nonprofit dedicated to protecting tropical rainforests, by working directly with rainforest communities to sustainably develop products found in the forest, giving the community a stake in keeping their trees intact.</p>
+                <p><a href="https://rainforestpartnership.org/">Rainforest Partnership</a> is an international nonprofit dedicated to protecting tropical rainforests, by working directly with rainforest communities to sustainably develop products found in the forest, giving the community a stake in keeping their trees intact.</p>
                 <p>Learn more about Rainforest Partnership and how you can support our work engaging rainforest communities to preserve the rainforest.</p>
-                <p><a href="www.worldrainforestpartnership.com">Rainforest Partnership</a></p>
                 <br/>
                 <br/>
                 <br/>

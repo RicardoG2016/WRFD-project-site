@@ -21,7 +21,7 @@ class Home extends Component {
                     <hr />
                     <h3>June 22 2017</h3>
                     <br/>
-                    <h4>Because the world can't wait</h4>
+                    <h4>Because the World Can't Wait</h4>
                 </div>
                 <br/>
                 <br/>

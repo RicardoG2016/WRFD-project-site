@@ -87,6 +87,21 @@ a.logo-text {
     border: 2px solid #0f8145;
 }
 
+.donate:focus {
+    color: #0f8145;
+    background-color: white;
+    font-weight: bold;
+    border: 2px solid #0f8145;
+    box-shadow: none !important;
+}
+
+.btn:focus, .btn:active, .btn.active, .btn:focus:active {
+  background-image: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
 @media screen and (max-width: 855px) {
     .navbar-left {
         display: none;

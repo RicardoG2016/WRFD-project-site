@@ -322,9 +322,14 @@ span.Header {
 }
 
 .do-img {
-  max-width: 230px;
-  padding: 20px;
-  width: 100%;
+  padding: 10px;
+  max-width: 100%;
+  max-height: 220px;
+}
+
+.donate-list {
+  text-align: center;
+  padding: 10px;
 }
 
 .facts {
@@ -426,6 +431,17 @@ img.img-responsive {
   margin: 0 !important;
 }
 
+.bo-btn {
+  background-color: #f68609 !important;
+}
+
+.bo-btn:hover {
+  background-color: white !important;
+  color: #f68609 !important;
+  font-weight: bold;
+  border: 2px solid #f68609 !important;
+}
+
 /*social buttons*/
 .social {
   padding: 10px;
@@ -450,7 +466,6 @@ img.img-responsive {
 }
 
 /*cards*/
-
 .card {
   padding: 30px 10px;
 }
@@ -484,11 +499,6 @@ img.img-responsive {
   background-color: white;
   border: 2px solid #0089fa;
   color: #0089fa;
-}
-
-
-.center-btn {
-  text-align: center;
 }
 
 .dd {

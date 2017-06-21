@@ -22,7 +22,7 @@ class Become_a_partner extends Component {
               <div className="contact-form col offset-2 offset-sm-6 py-2 text-muted"  id="text">
                 <p style={{fontWeight: "bold", fontSize: "20px"}}>With a goal of fostering increased individual and collective global action throughout the year, June 22 is envisioned to become a day of celebration and bring attention to the importance of rainforests.</p>
                 <br/>
-                <p><span style={{fontWeight: "bolder", fontSize: "18px"}} >Contact delainey@rainforestpartnership.org</span> if you are interested in becoming a collaborating partner or would like to receive a digital toolkit.</p>
+                <p>Contact <span style={{fontWeight: "bolder", fontSize: "18px"}} ><a href="mailto:delainey@rainforestpartnership.org?Subject=I'd%20like%20to%20become%20a%20partner" target="_top">Delainey</a></span> if you are interested in becoming a collaborating partner or would like to receive a digital toolkit.</p>
                 <br/>
                 <p>See below for more actions to take:</p>
                 <ul>
