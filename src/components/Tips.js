@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
+import { Link } from 'react-router-dom';
 
 import trees from '../images/trees.png';
 import oil from '../images/oil2.png';
@@ -55,7 +56,7 @@ componentDidMount(){
                       <div className="card-block">
                         <h4 className="card-title">Support Rainforest Protectors</h4>
                         <p className="card-text text-muted">Your dollars make a difference. Contribute to organizations that preserve our rainforests.</p>
-                        <a href="https://rainforestpartnership.org/partner-with-us/donation/" className="btn btn-primary tip-btn">Learn More</a>
+                        <Link to="/donate" className="btn btn-primary tip-btn">Learn More</Link>
                       </div>
                     </div>
                   </div>
