@@ -1,4 +1,4 @@
-Below are a few screenshots form the website i created for World Rainforest Day for Rainforest Partnership. The site was created with React, Bootstrap and hosted on AWS.
+Below are a few screenshots from the website I created for the first annual World Rainforest Day while working with Rainforest Partnership. The site was created with React.js, Bootstrap, HTML, CSS and hosted on AWS.
 
 http://www.worldrainforestday.com/
 
